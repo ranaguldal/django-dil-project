@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+<html lang="tr"  data-bs-theme="light">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>{{ activity.title }}</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-dark bg-dark">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="/">
+            🌍 Lingua
+        </a>
+
+        <div class="d-flex align-items-center gap-2">
+
+            <form action="{% url 'search' %}" method="get" class="d-flex" role="search">
+                <input type="search" name="q" class="form-control form-control-sm" placeholder="Ders veya kurs ara..." style="width: 180px;">
+                <button class="btn btn-sm btn-outline-light ms-1" type="submit">🔍</button>
+            </form>
+
+            <button
+                id="themeToggle"
+                type="button"
+                class="btn btn-outline-light"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Karanlık Mod / Aydınlık Mod">
+                🌓
+            </button>
+
+            {% if user.is_authenticated %}
+            <a href="{% url 'dashboard' %}" class="btn btn-outline-light">
+                📊 Panelim
+            </a>
+            {% endif %}
+
+            <a href="/" class="btn btn-outline-light">
+                Ana Sayfa
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- QUIZ -->
+
+<div class="container py-5">
+
+    <div
+        class="card shadow-sm border-0 mx-auto"
+        style="max-width: 750px;">
+
+        <div class="card-body p-4 p-md-5">
+
+
+            <!-- BAŞLIK -->
+
+            <div class="text-center mb-4">
+
+                {% if activity.activity_type == 'sentence_order' %}
+
+                    <span class="badge bg-success mb-3">
+
+                        🧩 Cümle Oluşturma
+
+                    </span>
+
+                    <h1 class="fw-bold">
+
+                        {{ activity.title }}
+
+                    </h1>
+
+                    <p class="text-secondary">
+
+                        Kelimelere doğru sırayla tıklayarak cümleyi oluştur.
+
+                    </p>
+
+
+                {% elif activity.activity_type == 'true_false' %}
+
+                    <span class="badge bg-warning text-dark mb-3">
+
+                        ✓ Doğru / Yanlış
+
+                    </span>
+
+                    <h1 class="fw-bold">
+
+                        {{ activity.title }}
+
+                    </h1>
+
+                    <p class="text-secondary">
+
+                        Verilen cümlenin doğru mu yanlış mı olduğunu seç.
+
+                    </p>
+
+
+                {% elif activity.activity_type == 'fill_blank' %}
+
+                    <span class="badge bg-info text-dark mb-3">
+
+                        ✏️ Boşluk Doldurma
+
+                    </span>
+
+                    <h1 class="fw-bold">
+
+                        {{ activity.title }}
+
+                    </h1>
+
+                    <p class="text-secondary">
+
+                        Cevabını kutucuğa yazarak soruyu tamamla.
+
+                    </p>
+
+
+                {% else %}
+
+                    <span class="badge bg-primary mb-3">
+
+                        📝 Quiz
+
+                    </span>
+
+                    <h1 class="fw-bold">
+
+                        {{ activity.title }}
+
+                    </h1>
+
+                    <p class="text-secondary">
+
+                        Soruları cevapla ve konuyu ne kadar öğrendiğini test et.
+
+                    </p>
+
+                {% endif %}
+
+            </div>
+
+
+            <!-- PROGRESS -->
+
+            <div class="mb-5">
+
+                <div class="d-flex justify-content-between mb-2">
+
+                    <span class="text-secondary">
+
+                        Toplam {{ questions|length }} soru
+
+                    </span>
+
+                    <span class="text-primary fw-bold">
+
+                        {% if activity.activity_type == 'sentence_order' %}
+
+                            Cümle Oluşturma
+
+                        {% elif activity.activity_type == 'true_false' %}
+
+                            Doğru / Yanlış
+
+                        {% elif activity.activity_type == 'fill_blank' %}
+
+                            Boşluk Doldurma
+
+                        {% else %}
+
+                            Quiz
+
+                        {% endif %}
+
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="progress"
+                    style="height: 10px;">
+
+                    <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 100%;">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORM -->
+
+            <form method="POST">
+
+                {% csrf_token %}
+
+
+                <!-- SORULAR -->
+
+                {% for question in questions %}
+
+                <div class="mb-5">
+
+
+                    <!-- SORU NUMARASI -->
+
+                    <div class="mb-3">
+
+                        <span class="badge bg-secondary">
+
+                            Soru {{ forloop.counter }}
+
+                        </span>
+
+                    </div>
+
+
+                    <!-- ===================================== -->
+                    <!-- CÜMLE OLUŞTURMA -->
+                    <!-- ===================================== -->
+
+                    {% if activity.activity_type == 'sentence_order' %}
+
+                        <h4 class="fw-bold mb-4">
+
+                            {{ question.question_text }}
+
+                        </h4>
+
+
+                        <!-- CEVAP ALANI -->
+
+                        <div
+                            class="border rounded p-3 mb-4 bg-white"
+                            id="answer_{{ question.id }}"
+                            style="min-height: 60px;">
+
+                            <span
+                                class="text-secondary"
+                                id="placeholder_{{ question.id }}">
+
+                                Kelimelere tıklayarak cümleyi oluştur...
+
+                            </span>
+
+                        </div>
+
+
+                        <!-- KELİMELER -->
+
+                        <div
+                            class="d-flex flex-wrap gap-2"
+                            id="words_{{ question.id }}">
+
+                            {% for choice in question.choices.all %}
+
+                                <button
+                                    type="button"
+                                    class="btn btn-outline-primary word-button"
+                                    data-question="{{ question.id }}"
+                                    data-word="{{ choice.text }}"
+                                    onclick="addWord(this)">
+
+                                    {{ choice.text }}
+
+                                </button>
+
+                            {% endfor %}
+
+                        </div>
+
+
+                        <!-- GİZLİ CEVAP -->
+
+                        <input
+                            type="hidden"
+                            name="question_{{ question.id }}"
+                            id="input_{{ question.id }}"
+                            value="">
+
+
+                        <!-- TEMİZLE -->
+
+                        <button
+                            type="button"
+                            class="btn btn-outline-secondary btn-sm mt-3"
+                            onclick="clearSentence('{{ question.id }}')">
+
+                            ↩ Temizle
+
+                        </button>
+
+
+                    <!-- ===================================== -->
+                    <!-- DOĞRU / YANLIŞ -->
+                    <!-- ===================================== -->
+
+                    {% elif activity.activity_type == 'true_false' %}
+
+                        <h4 class="fw-bold mb-4">
+
+                            {{ question.question_text }}
+
+                        </h4>
+
+
+                        {% for choice in question.choices.all %}
+
+                            <div class="mb-3">
+
+                                <input
+                                    type="radio"
+                                    class="btn-check"
+                                    name="question_{{ question.id }}"
+                                    id="choice_{{ choice.id }}"
+                                    value="{{ choice.id }}"
+                                    required>
+
+
+                                <label
+                                    class="btn btn-outline-primary w-100 p-3"
+                                    for="choice_{{ choice.id }}">
+
+                                    {% if choice.text == "Doğru" %}
+
+                                        ✓
+
+                                    {% else %}
+
+                                        ✕
+
+                                    {% endif %}
+
+                                    <strong>
+
+                                        {{ choice.text }}
+
+                                    </strong>
+
+                                </label>
+
+                            </div>
+
+                        {% endfor %}
+
+
+                    <!-- ===================================== -->
+                    <!-- BOŞLUK DOLDURMA -->
+                    <!-- ===================================== -->
+
+                    {% elif activity.activity_type == 'fill_blank' %}
+
+                        <h4 class="fw-bold mb-4">
+
+                            {{ question.question_text }}
+
+                            <button
+                                type="button"
+                                class="btn btn-sm btn-outline-primary speak-btn"
+                                data-text="{{ question.question_text }}"
+                                title="Dinle">
+                                🔊
+                            </button>
+
+                        </h4>
+
+                        <input
+                            type="text"
+                            class="form-control form-control-lg"
+                            name="question_{{ question.id }}"
+                            placeholder="Cevabını buraya yaz..."
+                            autocomplete="off"
+                            required>
+
+
+                    <!-- ===================================== -->
+                    <!-- ÇOKTAN SEÇMELİ -->
+                    <!-- ===================================== -->
+
+                    {% else %}
+
+                        <h4 class="fw-bold mb-4">
+
+                            {{ question.question_text }}
+
+                            <button
+                                type="button"
+                                class="btn btn-sm btn-outline-primary speak-btn"
+                                data-text="{{ question.question_text }}"
+                                title="Dinle">
+                                🔊
+                            </button>
+
+                        </h4>
+
+
+                        {% for choice in question.choices.all %}
+
+                        <div class="mb-3 d-flex align-items-center gap-2">
+
+                            <input
+                                type="radio"
+                                class="btn-check"
+                                name="question_{{ question.id }}"
+                                id="choice_{{ choice.id }}"
+                                value="{{ choice.id }}"
+                                required>
+
+
+                            <label
+                                class="btn btn-outline-primary w-100 text-start p-3 mb-0"
+                                for="choice_{{ choice.id }}">
+
+                                <strong class="me-2">
+
+                                    {{ forloop.counter }}.
+
+                                </strong>
+
+                                {{ choice.text }}
+
+                            </label>
+
+                            <button
+                                type="button"
+                                class="btn btn-sm btn-outline-secondary speak-btn"
+                                data-text="{{ choice.text }}"
+                                title="Dinle">
+                                🔊
+                            </button>
+
+                        </div>
+
+                        {% endfor %}
+
+                    {% endif %}
+
+
+                </div>
+
+                {% endfor %}
+
+
+                <!-- GÖNDER BUTONU -->
+
+                <div class="text-center mt-4">
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary btn-lg px-5">
+
+                        {% if activity.activity_type == 'sentence_order' %}
+
+                            🎯 Cümleyi Kontrol Et
+
+                        {% elif activity.activity_type == 'true_false' %}
+
+                            ✓ Cevapları Kontrol Et
+
+                        {% elif activity.activity_type == 'fill_blank' %}
+
+                            ✏️ Cevabı Kontrol Et
+
+                        {% else %}
+
+                            🎯 Quiz'i Bitir
+
+                        {% endif %}
+
+                    </button>
+
+                </div>
+
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ===================================== -->
+
+<!-- CÜMLE OLUŞTURMA JAVASCRIPT + SESLİ OKUMA -->
+
+<!-- ===================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<script>
+
+(function () {
+    const html = document.documentElement;
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-bs-theme', savedTheme);
+
+    const toggleBtn = document.getElementById('themeToggle');
+    if (toggleBtn) {
+        toggleBtn.addEventListener('click', function () {
+            const current = html.getAttribute('data-bs-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-bs-theme', next);
+            localStorage.setItem('theme', next);
+        });
+    }
+
+    document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
+        new bootstrap.Tooltip(el);
+    });
+})();
+
+function speakText(text) {
+
+    if (!('speechSynthesis' in window)) {
+
+        alert('Tarayıcınız sesli okumayı desteklemiyor.');
+
+        return;
+
+    }
+
+    speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+
+    utterance.lang = '{{ speech_lang }}';
+
+    speechSynthesis.speak(utterance);
+
+}
+
+document.querySelectorAll('.speak-btn').forEach(function (btn) {
+
+    btn.addEventListener('click', function () {
+
+        speakText(btn.getAttribute('data-text'));
+
+    });
+
+});
+
+
+function addWord(button) {
+
+    const questionId = button.dataset.question;
+
+    const word = button.dataset.word;
+
+    const answerArea = document.getElementById(
+        "answer_" + questionId
+    );
+
+    const input = document.getElementById(
+        "input_" + questionId
+    );
+
+    const placeholder = document.getElementById(
+        "placeholder_" + questionId
+    );
+
+
+    if (input.value === "") {
+
+        placeholder.style.display = "none";
+
+    }
+
+
+    if (input.value === "") {
+
+        input.value = word;
+
+    } else {
+
+        input.value += " " + word;
+
+    }
+
+
+    const span = document.createElement("span");
+
+    span.className = "badge bg-primary fs-6 me-1 mb-1";
+
+    span.innerText = word;
+
+    answerArea.appendChild(span);
+
+
+    button.disabled = true;
+
+}
+
+
+function clearSentence(questionId) {
+
+    const input = document.getElementById(
+        "input_" + questionId
+    );
+
+    const answerArea = document.getElementById(
+        "answer_" + questionId
+    );
+
+    const placeholder = document.getElementById(
+        "placeholder_" + questionId
+    );
+
+    const wordsArea = document.getElementById(
+        "words_" + questionId
+    );
+
+
+    input.value = "";
+
+
+    answerArea.innerHTML = "";
+
+    answerArea.appendChild(placeholder);
+
+    placeholder.style.display = "inline";
+
+
+    const buttons = wordsArea.querySelectorAll(
+        "button"
+    );
+
+
+    buttons.forEach(function(button) {
+
+        button.disabled = false;
+
+    });
+
+}
+
+</script>
+
+</body>
+
+</html>

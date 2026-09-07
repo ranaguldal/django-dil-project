@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html lang="tr"  data-bs-theme="light">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>{{ lesson.title }}</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-dark bg-dark">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="/">
+            🌍 Lingua
+        </a>
+
+        <div class="d-flex align-items-center gap-2">
+
+            <form action="{% url 'search' %}" method="get" class="d-flex" role="search">
+                <input type="search" name="q" class="form-control form-control-sm" placeholder="Ders veya kurs ara..." style="width: 180px;">
+                <button class="btn btn-sm btn-outline-light ms-1" type="submit">🔍</button>
+            </form>
+
+            <a href="{% url 'translate_page' %}" class="btn btn-outline-light">
+                🌐 Çeviri
+            </a>
+
+            <button
+                id="themeToggle"
+                type="button"
+                class="btn btn-outline-light"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Karanlık Mod / Aydınlık Mod">
+                🌓
+            </button>
+
+            {% if user.is_authenticated %}
+            <a href="{% url 'dashboard' %}" class="btn btn-outline-light">
+                📊 Panelim
+            </a>
+            {% endif %}
+
+            <a href="/" class="btn btn-outline-light">
+                Ana Sayfa
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- LESSON -->
+
+<div class="container py-5">
+
+
+    <!-- LESSON TITLE -->
+
+    <div class="mb-5">
+
+        <span class="badge bg-primary mb-3">
+
+            {{ lesson.course.level.language.name }}
+
+            -
+
+            {{ lesson.course.level.name }}
+
+        </span>
+
+
+        <h1 class="fw-bold">
+
+            {{ lesson.title }}
+
+        </h1>
+
+
+        {% if lesson.description %}
+
+        <p class="lead text-secondary">
+
+            {{ lesson.description }}
+
+        </p>
+
+        {% endif %}
+
+    </div>
+
+
+    <div class="card shadow-sm border-0 mb-5">
+        <div class="card-body p-4">
+
+            <button
+                class="btn btn-outline-primary w-100 d-flex justify-content-between align-items-center"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#lessonContent"
+                aria-expanded="false"
+                aria-controls="lessonContent">
+                <span>📖 Ders İçeriğini Göster</span>
+                <span>▼</span>
+            </button>
+
+            <div class="collapse mt-3" id="lessonContent">
+                <ul class="list-group list-group-flush">
+                    {% for word in vocab_list %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        <div>
+                            <strong>{{ word.english }}</strong>
+                            {% if word.turkish %}
+                                <span class="text-secondary"> = {{ word.turkish }}</span>
+                            {% endif %}
+                        </div>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-primary speak-btn"
+                          data-text="{{ word.english }}"
+                          title="Dinle">
+                          🔊
+                        </button>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card shadow-sm border-0 mb-5">
+        <div class="card-body p-4">
+
+            {% csrf_token %}
+
+            <button
+                class="btn btn-outline-secondary w-100 d-flex justify-content-between align-items-center"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#quickTranslate"
+                aria-expanded="false"
+                aria-controls="quickTranslate">
+                <span>🌐 Hızlı Çeviri</span>
+                <span>▼</span>
+            </button>
+
+            <div class="collapse mt-3" id="quickTranslate">
+
+                <textarea
+                    id="quickTranslateInput"
+                    class="form-control mb-2"
+                    rows="2"
+                    placeholder="Çevrilecek kelime veya cümleyi yaz..."></textarea>
+
+                <select id="quickTranslateLang" class="form-select mb-2" style="max-width: 200px;">
+                   <option value="EN-US">İngilizce</option>
+                   <option value="TR">Türkçe</option>
+                </select>
+
+                <button id="quickTranslateBtn" class="btn btn-sm btn-primary">
+                    Çevir
+                </button>
+
+                <div id="quickTranslateResult" class="alert alert-secondary mt-2 d-none"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- LESSON PROGRESS -->
+
+    {% if user.is_authenticated %}
+
+        {% if progress.completed %}
+
+            <div class="alert alert-success mb-5">
+
+                <h5 class="fw-bold mb-2">
+
+                    🎉 Ders Tamamlandı!
+
+                </h5>
+
+                <p class="mb-0">
+
+                    Bu dersi başarıyla tamamladın.
+
+                </p>
+
+            </div>
+
+        {% else %}
+
+            <div class="alert alert-info mb-5">
+
+                <h5 class="fw-bold mb-2">
+
+                    📚 Dersi Tamamlamak İçin
+
+                </h5>
+
+                <p class="mb-0">
+
+                    Ders içeriğini incele ve aşağıdaki quizi
+                    en az <strong>%80 başarıyla</strong> tamamla.
+
+                </p>
+
+            </div>
+
+        {% endif %}
+
+    {% else %}
+
+        <div class="alert alert-warning mb-5">
+
+            <strong>
+
+                Quiz sonuçlarını ve ders ilerlemeni kaydetmek için
+                giriş yapmalısın.
+
+            </strong>
+
+        </div>
+
+    {% endif %}
+
+
+    <!-- ACTIVITIES -->
+
+    <h2 class="fw-bold mb-4">
+
+        📝 Etkinlikler
+
+    </h2>
+
+
+    {% for activity in activities %}
+
+
+    <div class="card shadow-sm border-0 mb-4">
+
+        <div class="card-body p-4">
+
+
+            <!-- ACTIVITY TITLE -->
+
+            <h4 class="fw-bold">
+
+                {{ activity.order }}.
+
+                {{ activity.title }}
+
+            </h4>
+
+
+            <!-- QUESTION COUNT -->
+
+            <p class="text-secondary">
+
+                {{ activity.questions.count }} soru
+
+            </p>
+
+
+            <!-- QUIZ BUTTON -->
+
+            <a
+                href="{% url 'quiz' activity.id %}"
+                class="btn btn-primary">
+
+                📝 Teste Başla
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+    {% empty %}
+
+
+    <!-- NO ACTIVITY -->
+
+    <div class="alert alert-info">
+
+        Bu derste henüz etkinlik bulunmuyor.
+
+    </div>
+
+
+    {% endfor %}
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+(function () {
+    const html = document.documentElement;
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-bs-theme', savedTheme);
+
+    document.getElementById('themeToggle').addEventListener('click', function () {
+        const current = html.getAttribute('data-bs-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-bs-theme', next);
+        localStorage.setItem('theme', next);
+    });
+})();
+
+document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
+    new bootstrap.Tooltip(el);
+});
+
+function speakText(text) {
+    if (!('speechSynthesis' in window)) {
+        alert('Tarayıcınız sesli okumayı desteklemiyor.');
+        return;
+    }
+    speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = '{{ speech_lang }}';
+    speechSynthesis.speak(utterance);
+}
+
+document.querySelectorAll('.speak-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        speakText(btn.getAttribute('data-text'));
+    });
+});
+
+function getCsrfToken() {
+    return document.querySelector('[name=csrfmiddlewaretoken]').value;
+}
+
+const quickTranslateBtn = document.getElementById('quickTranslateBtn');
+
+if (quickTranslateBtn) {
+    quickTranslateBtn.addEventListener('click', function () {
+
+        const text = document.getElementById('quickTranslateInput').value.trim();
+        const targetLang = document.getElementById('quickTranslateLang').value;
+        const resultBox = document.getElementById('quickTranslateResult');
+
+        if (!text) {
+            return;
+        }
+
+        resultBox.classList.remove('d-none', 'alert-danger');
+        resultBox.classList.add('alert-secondary');
+        resultBox.innerText = 'Çevriliyor...';
+
+        fetch('{% url "translate_api" %}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': getCsrfToken(),
+            },
+            body: JSON.stringify({ text: text, target_lang: targetLang }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                resultBox.classList.remove('alert-secondary');
+                resultBox.classList.add('alert-danger');
+                resultBox.innerText = data.error;
+            } else {
+                resultBox.classList.remove('alert-danger');
+                resultBox.classList.add('alert-secondary');
+                resultBox.innerText = data.translated_text;
+            }
+        })
+        .catch(() => {
+            resultBox.classList.remove('alert-secondary');
+            resultBox.classList.add('alert-danger');
+            resultBox.innerText = 'Bir hata oluştu.';
+        });
+    });
+}
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,2697 @@
+{
+    "language": {
+        "name": "İngilizce",
+        "slug": "ingilizce",
+        "flag": "english.png",
+        "order": 1
+    },
+
+    "level": {
+        "name": "A2"
+    },
+
+    "course": {
+        "title": "İngilizce A2 Orta Seviye",
+        "description": "A1 seviyesini tamamlayanlar için orta seviye kelime, gramer ve günlük konuşma konuları.",
+        "imageUrl": "englishs1.jpg",
+        "isActive": true,
+
+        "lessons": [
+            {
+                "title": "Past Simple (Geçmiş Zaman)",
+                "description": "İngilizcede geçmiş zamanın (Past Simple) düzenli ve düzensiz fiillerle kullanımını öğren.",
+                "content": "I visited my grandmother yesterday. = Dün büyükannemi ziyaret ettim.\nShe watched a movie last night. = O dün gece bir film izledi.\nThey played football on Saturday. = Onlar cumartesi futbol oynadılar.\nI went to school. = Okula gittim.\nHe saw a bird. = O bir kuş gördü.\nWe ate dinner at home. = Biz evde akşam yemeği yedik.\nI didn't go to the party. = Partiye gitmedim.\nDid you see that movie? = O filmi gördün mü?",
+                "order": 1,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Past Simple Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Dün büyükannemi ziyaret ettim.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I visited my grandmother yesterday.", "is_correct": true },
+                                    { "text": "I visit my grandmother yesterday.", "is_correct": false },
+                                    { "text": "I visiting my grandmother yesterday.", "is_correct": false },
+                                    { "text": "I am visited my grandmother yesterday.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Okula gittim.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "I went to school.", "is_correct": true },
+                                    { "text": "I goed to school.", "is_correct": false },
+                                    { "text": "I go to school yesterday.", "is_correct": false },
+                                    { "text": "I have go to school.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'O bir kuş gördü.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "He saw a bird.", "is_correct": true },
+                                    { "text": "He seed a bird.", "is_correct": false },
+                                    { "text": "He sees a bird yesterday.", "is_correct": false },
+                                    { "text": "He seeing a bird.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangi cümle doğrudur?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "They played football on Saturday.", "is_correct": true },
+                                    { "text": "They plays football on Saturday.", "is_correct": false },
+                                    { "text": "They playing football on Saturday.", "is_correct": false },
+                                    { "text": "They are played football on Saturday.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'O filmi gördün mü?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Did you see that movie?", "is_correct": true },
+                                    { "text": "Did you saw that movie?", "is_correct": false },
+                                    { "text": "Do you saw that movie?", "is_correct": false },
+                                    { "text": "You did see that movie?", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Past Simple Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Yesterday, I ___ my grandmother. (visited/visits)",
+                                "correct_answer": "visited",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She ___ a movie last night. (watched/watches)",
+                                "correct_answer": "watched",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "I ___ to school yesterday. (went/goed)",
+                                "correct_answer": "went",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "He ___ a bird in the garden. (saw/seed)",
+                                "correct_answer": "saw",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "I ___ go to the party. I stayed home. (didn't/don't)",
+                                "correct_answer": "didn't",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Past Simple Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I went to school",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "to" },
+                                    { "text": "go" },
+                                    { "text": "school" },
+                                    { "text": "I" },
+                                    { "text": "went" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She watched a movie",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "watched" },
+                                    { "text": "watch" },
+                                    { "text": "movie" },
+                                    { "text": "She" },
+                                    { "text": "a" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "They played football",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "played" },
+                                    { "text": "play" },
+                                    { "text": "football" },
+                                    { "text": "They" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "Seyahat",
+                "description": "Seyahat ederken kullanılan temel İngilizce kelimeleri öğren.",
+                "content": "Airport = Havalimanı\nTicket = Bilet\nPassport = Pasaport\nSuitcase = Bavul\nFlight = Uçuş\nHotel = Otel\nReservation = Rezervasyon\nTourist = Turist\nMap = Harita\nJourney = Yolculuk\nDestination = Varış noktası\nLuggage = Bagaj",
+                "order": 2,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Seyahat Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Airport ne demektir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Havalimanı", "is_correct": true },
+                                    { "text": "Otel", "is_correct": false },
+                                    { "text": "Bilet", "is_correct": false },
+                                    { "text": "Bavul", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Ticket ne demektir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Bilet", "is_correct": true },
+                                    { "text": "Pasaport", "is_correct": false },
+                                    { "text": "Harita", "is_correct": false },
+                                    { "text": "Bagaj", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Pasaport kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Passport", "is_correct": true },
+                                    { "text": "Ticket", "is_correct": false },
+                                    { "text": "Suitcase", "is_correct": false },
+                                    { "text": "Flight", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Suitcase ne demektir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Bavul", "is_correct": true },
+                                    { "text": "Bilet", "is_correct": false },
+                                    { "text": "Harita", "is_correct": false },
+                                    { "text": "Rezervasyon", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Otel kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Hotel", "is_correct": true },
+                                    { "text": "Airport", "is_correct": false },
+                                    { "text": "Journey", "is_correct": false },
+                                    { "text": "Destination", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Seyahat Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Before you fly, you need to show your ___ at the airport. (passport/map)",
+                                "correct_answer": "passport",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "I packed my clothes in a ___. (suitcase/ticket)",
+                                "correct_answer": "suitcase",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "We stayed in a nice ___ near the beach. (hotel/airport)",
+                                "correct_answer": "hotel",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "You need a ___ to enter the plane. (ticket/luggage)",
+                                "correct_answer": "ticket",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "A person who travels to visit new places is called a ___. (tourist/pilot)",
+                                "correct_answer": "tourist",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Seyahat Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I bought a ticket",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "a" },
+                                    { "text": "buy" },
+                                    { "text": "ticket" },
+                                    { "text": "I" },
+                                    { "text": "bought" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She packed her suitcase",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "her" },
+                                    { "text": "pack" },
+                                    { "text": "suitcase" },
+                                    { "text": "She" },
+                                    { "text": "packed" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Present Continuous (Şimdiki Zaman)",
+                "description": "İngilizcede şu anda gerçekleşen olayları ve geçici durumları anlatmak için kullanılan Present Continuous zamanını öğren.",
+                "content": "I am studying English now. = Şu anda İngilizce çalışıyorum.\nShe is watching TV. = O televizyon izliyor.\nThey are playing football. = Onlar futbol oynuyor.\nHe is reading a book. = O kitap okuyor.\nWe are having dinner. = Biz akşam yemeği yiyoruz.\nI am not sleeping. = Uyuyor değilim.\nShe isn't working today. = O bugün çalışmıyor.\nAre you listening to me? = Beni dinliyor musun?\nWhat are they doing? = Onlar ne yapıyor?",
+                "order": 3,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Present Continuous Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Şu anda İngilizce çalışıyorum.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I am studying English now.", "is_correct": true },
+                                    { "text": "I study English now.", "is_correct": false },
+                                    { "text": "I studying English now.", "is_correct": false },
+                                    { "text": "I am study English now.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "She ___ TV right now.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "is watching", "is_correct": true },
+                                    { "text": "watch", "is_correct": false },
+                                    { "text": "watching", "is_correct": false },
+                                    { "text": "is watch", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Onlar futbol oynuyor.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "They are playing football.", "is_correct": true },
+                                    { "text": "They playing football.", "is_correct": false },
+                                    { "text": "They play football now.", "is_correct": false },
+                                    { "text": "They is playing football.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi Present Continuous ile doğru kurulmuştur?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "He is reading a book.", "is_correct": true },
+                                    { "text": "He reading a book.", "is_correct": false },
+                                    { "text": "He is read a book.", "is_correct": false },
+                                    { "text": "He reads a book now.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Beni dinliyor musun?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Are you listening to me?", "is_correct": true },
+                                    { "text": "Do you listening to me?", "is_correct": false },
+                                    { "text": "Are you listen to me?", "is_correct": false },
+                                    { "text": "Is you listening to me?", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Present Continuous Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I ___ studying English now. (am/is)",
+                                "correct_answer": "am",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She ___ watching TV. (is/are)",
+                                "correct_answer": "is",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "They ___ playing football. (are/is)",
+                                "correct_answer": "are",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "He ___ reading a book. (is/am)",
+                                "correct_answer": "is",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "We ___ having dinner. (are/is)",
+                                "correct_answer": "are",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Present Continuous Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur.",
+                                "correct_answer": "I am studying English",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "studying" },
+                                    { "text": "am" },
+                                    { "text": "English" },
+                                    { "text": "I" },
+                                    { "text": "study" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur.",
+                                "correct_answer": "She is watching TV",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "watching" },
+                                    { "text": "She" },
+                                    { "text": "TV" },
+                                    { "text": "is" },
+                                    { "text": "watch" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur.",
+                                "correct_answer": "They are playing football",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "football" },
+                                    { "text": "are" },
+                                    { "text": "playing" },
+                                    { "text": "They" },
+                                    { "text": "play" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "Past Continuous (Geçmişte Devam Eden Zaman)",
+                "description": "Geçmişte belirli bir zamanda devam etmekte olan olayları anlatmak için kullanılan Past Continuous zamanını öğren.",
+                "content": "I was studying at 8 o'clock. = Saat 8'de ders çalışıyordum.\nShe was watching TV when I called her. = Onu aradığımda televizyon izliyordu.\nThey were playing football yesterday afternoon. = Dün öğleden sonra futbol oynuyorlardı.\nHe was sleeping when the phone rang. = Telefon çaldığında uyuyordu.\nWe were having dinner at 7 pm. = Saat 7'de akşam yemeği yiyorduk.\nI wasn't working yesterday evening. = Dün akşam çalışmıyordum.\nThey weren't sleeping. = Onlar uyumuyordu.\nWere you studying at 9 o'clock? = Saat 9'da ders çalışıyor muydun?\nWhat were you doing? = Ne yapıyordun?",
+                "order": 4,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Past Continuous Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Saat 8'de ders çalışıyordum.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I was studying at 8 o'clock.", "is_correct": true },
+                                    { "text": "I studied at 8 o'clock.", "is_correct": false },
+                                    { "text": "I were studying at 8 o'clock.", "is_correct": false },
+                                    { "text": "I was study at 8 o'clock.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "She ___ TV when I called her.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "was watching", "is_correct": true },
+                                    { "text": "were watching", "is_correct": false },
+                                    { "text": "was watch", "is_correct": false },
+                                    { "text": "watched", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Onlar dün öğleden sonra futbol oynuyorlardı.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "They were playing football yesterday afternoon.", "is_correct": true },
+                                    { "text": "They was playing football yesterday afternoon.", "is_correct": false },
+                                    { "text": "They played football now.", "is_correct": false },
+                                    { "text": "They were play football yesterday.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi Past Continuous ile doğru kurulmuştur?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "He was sleeping when the phone rang.", "is_correct": true },
+                                    { "text": "He were sleeping when the phone rang.", "is_correct": false },
+                                    { "text": "He was sleep when the phone rang.", "is_correct": false },
+                                    { "text": "He sleeping when the phone rang.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Ne yapıyordun?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "What were you doing?", "is_correct": true },
+                                    { "text": "What was you doing?", "is_correct": false },
+                                    { "text": "What did you doing?", "is_correct": false },
+                                    { "text": "What were you do?", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Past Continuous Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I ___ studying at 8 o'clock. (was/were)",
+                                "correct_answer": "was",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She ___ watching TV. (was/were)",
+                                "correct_answer": "was",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "They ___ playing football. (were/was)",
+                                "correct_answer": "were",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "He ___ sleeping when the phone rang. (was/were)",
+                                "correct_answer": "was",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "We ___ having dinner at 7 pm. (were/was)",
+                                "correct_answer": "were",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Past Continuous Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur.",
+                                "correct_answer": "I was studying English",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "studying" },
+                                    { "text": "was" },
+                                    { "text": "English" },
+                                    { "text": "I" },
+                                    { "text": "study" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur.",
+                                "correct_answer": "She was watching TV",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "watching" },
+                                    { "text": "She" },
+                                    { "text": "TV" },
+                                    { "text": "was" },
+                                    { "text": "watch" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur.",
+                                "correct_answer": "They were playing football",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "football" },
+                                    { "text": "were" },
+                                    { "text": "playing" },
+                                    { "text": "They" },
+                                    { "text": "play" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Going to – Gelecek Zaman",
+                "description": "İngilizcede önceden planlanmış gelecek olayları ve yapılması düşünülen işleri anlatmak için kullanılan going to yapısını öğren.",
+                "content": "I am going to travel next summer. = Gelecek yaz seyahat edeceğim.\nShe is going to buy a new phone. = O yeni bir telefon alacak.\nThey are going to visit their grandparents. = Büyükannelerini ve büyükbabalarını ziyaret edecekler.\nHe is going to study tonight. = Bu gece ders çalışacak.\nWe are going to watch a movie. = Bir film izleyeceğiz.\nI am not going to work tomorrow. = Yarın çalışmayacağım.\nShe isn't going to cook dinner. = O akşam yemeği pişirmeyecek.\nAre you going to travel this summer? = Bu yaz seyahat edecek misin?\nWhat are you going to do tomorrow? = Yarın ne yapacaksın?",
+                "order": 5,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Going to Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Gelecek yaz seyahat edeceğim.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I am going to travel next summer.", "is_correct": true },
+                                    { "text": "I going to travel next summer.", "is_correct": false },
+                                    { "text": "I am go to travel next summer.", "is_correct": false },
+                                    { "text": "I will going to travel next summer.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "She ___ going to buy a new phone.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "is", "is_correct": true },
+                                    { "text": "are", "is_correct": false },
+                                    { "text": "am", "is_correct": false },
+                                    { "text": "be", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Onları ziyaret edecekler.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "They are going to visit them.", "is_correct": true },
+                                    { "text": "They is going to visit them.", "is_correct": false },
+                                    { "text": "They going to visit them.", "is_correct": false },
+                                    { "text": "They are go to visit them.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi going to ile doğru kurulmuştur?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "He is going to study tonight.", "is_correct": true },
+                                    { "text": "He are going to study tonight.", "is_correct": false },
+                                    { "text": "He going to study tonight.", "is_correct": false },
+                                    { "text": "He is going study tonight.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Bu yaz seyahat edecek misin?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Are you going to travel this summer?", "is_correct": true },
+                                    { "text": "Do you going to travel this summer?", "is_correct": false },
+                                    { "text": "Is you going to travel this summer?", "is_correct": false },
+                                    { "text": "Are you go to travel this summer?", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Going to Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I ___ going to travel next summer. (am/is)",
+                                "correct_answer": "am",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She ___ going to buy a new phone. (is/are)",
+                                "correct_answer": "is",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "They ___ going to visit their grandparents. (are/is)",
+                                "correct_answer": "are",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "He ___ going to study tonight. (is/am)",
+                                "correct_answer": "is",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "We ___ going to watch a movie. (are/is)",
+                                "correct_answer": "are",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Going to Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I am going to travel tomorrow",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "am" },
+                                    { "text": "going" },
+                                    { "text": "to" },
+                                    { "text": "travel" },
+                                    { "text": "tomorrow" },
+                                    { "text": "yesterday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She is going to buy a phone",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She" },
+                                    { "text": "is" },
+                                    { "text": "going" },
+                                    { "text": "to" },
+                                    { "text": "buy" },
+                                    { "text": "a" },
+                                    { "text": "phone" },
+                                    { "text": "car" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "They are going to visit us",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "They" },
+                                    { "text": "are" },
+                                    { "text": "going" },
+                                    { "text": "to" },
+                                    { "text": "visit" },
+                                    { "text": "us" },
+                                    { "text": "tomorrow" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Günlük Hayat ve Rutinler",
+                "description": "Günlük yaşamda kullanılan temel İngilizce kelimeleri ve günlük rutinleri anlatan ifadeleri öğren.",
+                "content": "Wake up = Uyanmak\nGet dressed = Giyinmek\nHave breakfast = Kahvaltı yapmak\nGo to work = İşe gitmek\nGo to school = Okula gitmek\nHave lunch = Öğle yemeği yemek\nCome home = Eve gelmek\nDo homework = Ödev yapmak\nTake a shower = Duş almak\nGo to bed = Yatağa gitmek\nBrush teeth = Dişleri fırçalamak\nGet up = Yataktan kalkmak",
+                "order": 6,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Günlük Hayat Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Wake up ne demektir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Uyanmak", "is_correct": true },
+                                    { "text": "Uyumak", "is_correct": false },
+                                    { "text": "Çalışmak", "is_correct": false },
+                                    { "text": "Yemek yemek", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Have breakfast ne demektir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Kahvaltı yapmak", "is_correct": true },
+                                    { "text": "Duş almak", "is_correct": false },
+                                    { "text": "Eve gelmek", "is_correct": false },
+                                    { "text": "Yatağa gitmek", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Duş almak kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Take a shower", "is_correct": true },
+                                    { "text": "Have lunch", "is_correct": false },
+                                    { "text": "Get dressed", "is_correct": false },
+                                    { "text": "Go to bed", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Go to bed ne demektir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Yatağa gitmek", "is_correct": true },
+                                    { "text": "Okula gitmek", "is_correct": false },
+                                    { "text": "Eve gelmek", "is_correct": false },
+                                    { "text": "Kahvaltı yapmak", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Ödev yapmak kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Do homework", "is_correct": true },
+                                    { "text": "Do breakfast", "is_correct": false },
+                                    { "text": "Make shower", "is_correct": false },
+                                    { "text": "Go homework", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Günlük Hayat Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I ___ up at 7 o'clock every morning. (wake/get)",
+                                "correct_answer": "wake",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "I ___ breakfast at 8 o'clock. (have/go)",
+                                "correct_answer": "have",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "She ___ dressed before school. (gets/takes)",
+                                "correct_answer": "gets",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "He ___ homework after school. (does/goes)",
+                                "correct_answer": "does",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "They ___ to bed at 11 pm. (go/have)",
+                                "correct_answer": "go",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Günlük Hayat Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I have breakfast every morning",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "have" },
+                                    { "text": "breakfast" },
+                                    { "text": "every" },
+                                    { "text": "morning" },
+                                    { "text": "night" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She takes a shower every day",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She" },
+                                    { "text": "takes" },
+                                    { "text": "a" },
+                                    { "text": "shower" },
+                                    { "text": "every" },
+                                    { "text": "day" },
+                                    { "text": "week" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I do homework after school",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "do" },
+                                    { "text": "homework" },
+                                    { "text": "after" },
+                                    { "text": "school" },
+                                    { "text": "work" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Will – Gelecek Zaman",
+                "description": "İngilizcede gelecekle ilgili tahminleri, ani kararları, teklifleri ve sözleri anlatmak için kullanılan will yapısını öğren.",
+                "content": "I will help you. = Sana yardım edeceğim.\nShe will call you later. = Seni daha sonra arayacak.\nThey will come tomorrow. = Yarın gelecekler.\nI think it will rain. = Bence yağmur yağacak.\nHe will be a good teacher. = O iyi bir öğretmen olacak.\nI won't forget you. = Seni unutmayacağım.\nShe won't come tonight. = O bu gece gelmeyecek.\nWill you help me? = Bana yardım edecek misin?\nWhat will you do tomorrow? = Yarın ne yapacaksın?",
+                "order": 7,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Will Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Sana yardım edeceğim.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I will help you.", "is_correct": true },
+                                    { "text": "I will helping you.", "is_correct": false },
+                                    { "text": "I am help you.", "is_correct": false },
+                                    { "text": "I help will you.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "She ___ call you later.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "will", "is_correct": true },
+                                    { "text": "is", "is_correct": false },
+                                    { "text": "does", "is_correct": false },
+                                    { "text": "was", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Bence yağmur yağacak.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "I think it will rain.", "is_correct": true },
+                                    { "text": "I think it will raining.", "is_correct": false },
+                                    { "text": "I think it is rain.", "is_correct": false },
+                                    { "text": "I think it rains will.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi will ile doğru kurulmuştur?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "They will come tomorrow.", "is_correct": true },
+                                    { "text": "They will coming tomorrow.", "is_correct": false },
+                                    { "text": "They are will come tomorrow.", "is_correct": false },
+                                    { "text": "They will comes tomorrow.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Bana yardım edecek misin?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Will you help me?", "is_correct": true },
+                                    { "text": "Do you will help me?", "is_correct": false },
+                                    { "text": "Will you helping me?", "is_correct": false },
+                                    { "text": "Are you will help me?", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Will Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I ___ help you. (will/am)",
+                                "correct_answer": "will",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She ___ call you later. (will/is)",
+                                "correct_answer": "will",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "They ___ come tomorrow. (will/are)",
+                                "correct_answer": "will",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "I think it ___ rain. (will/is)",
+                                "correct_answer": "will",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "He ___ be a good teacher. (will/is)",
+                                "correct_answer": "will",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Will Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I will help you tomorrow",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "will" },
+                                    { "text": "help" },
+                                    { "text": "you" },
+                                    { "text": "tomorrow" },
+                                    { "text": "yesterday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She will call me later",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She" },
+                                    { "text": "will" },
+                                    { "text": "call" },
+                                    { "text": "me" },
+                                    { "text": "later" },
+                                    { "text": "yesterday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "They will come tomorrow",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "They" },
+                                    { "text": "will" },
+                                    { "text": "come" },
+                                    { "text": "tomorrow" },
+                                    { "text": "yesterday" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Comparatives & Superlatives (Karşılaştırmalar)",
+                "description": "İngilizcede insanları, nesneleri ve yerleri karşılaştırmak için kullanılan comparative ve superlative yapılarını öğren.",
+                "content": "My car is faster than yours. = Benim arabam seninkinden daha hızlı.\nThis book is cheaper than that book. = Bu kitap şu kitaptan daha ucuz.\nAli is taller than Mehmet. = Ali Mehmet'ten daha uzun.\nThis is the biggest house in the city. = Bu şehirdeki en büyük ev.\nShe is the most intelligent student in the class. = O sınıftaki en zeki öğrenci.\nToday is colder than yesterday. = Bugün dünden daha soğuk.\nThis exercise is easier than the last one. = Bu egzersiz sonuncusundan daha kolay.\nMount Everest is the highest mountain in the world. = Everest dünyanın en yüksek dağıdır.",
+                "order": 8,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Comparatives & Superlatives Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Benim arabam seninkinden daha hızlı.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "My car is faster than yours.", "is_correct": true },
+                                    { "text": "My car is fastest than yours.", "is_correct": false },
+                                    { "text": "My car is more fast than yours.", "is_correct": false },
+                                    { "text": "My car faster than yours.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "This book is ___ than that book.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "cheaper", "is_correct": true },
+                                    { "text": "cheap", "is_correct": false },
+                                    { "text": "cheapest", "is_correct": false },
+                                    { "text": "more cheap", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Ali Mehmet'ten daha uzun.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Ali is taller than Mehmet.", "is_correct": true },
+                                    { "text": "Ali is tallest than Mehmet.", "is_correct": false },
+                                    { "text": "Ali taller is than Mehmet.", "is_correct": false },
+                                    { "text": "Ali is more tall than Mehmet.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi superlative yapısıyla doğru kurulmuştur?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "This is the biggest house in the city.", "is_correct": true },
+                                    { "text": "This is the bigger house in the city.", "is_correct": false },
+                                    { "text": "This is biggest house in the city.", "is_correct": false },
+                                    { "text": "This is the most big house in the city.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Bugün dünden daha soğuk.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Today is colder than yesterday.", "is_correct": true },
+                                    { "text": "Today is coldest than yesterday.", "is_correct": false },
+                                    { "text": "Today colder is than yesterday.", "is_correct": false },
+                                    { "text": "Today is more cold yesterday.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Comparatives & Superlatives Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "My car is ___ than yours. (faster/fastest)",
+                                "correct_answer": "faster",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "This book is ___ than that book. (cheaper/cheapest)",
+                                "correct_answer": "cheaper",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "Ali is ___ than Mehmet. (taller/tallest)",
+                                "correct_answer": "taller",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "This is the ___ house in the city. (biggest/bigger)",
+                                "correct_answer": "biggest",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "Today is ___ than yesterday. (colder/coldest)",
+                                "correct_answer": "colder",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Comparatives & Superlatives Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "My car is faster than yours",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "My" },
+                                    { "text": "car" },
+                                    { "text": "is" },
+                                    { "text": "faster" },
+                                    { "text": "than" },
+                                    { "text": "yours" },
+                                    { "text": "slow" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Ali is taller than Mehmet",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Ali" },
+                                    { "text": "is" },
+                                    { "text": "taller" },
+                                    { "text": "than" },
+                                    { "text": "Mehmet" },
+                                    { "text": "shorter" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "This is the biggest house",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "This" },
+                                    { "text": "is" },
+                                    { "text": "the" },
+                                    { "text": "biggest" },
+                                    { "text": "house" },
+                                    { "text": "smallest" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Sağlık ve Vücut",
+                "description": "Sağlıkla ilgili günlük konuşmalarda kullanılan temel İngilizce kelimeleri öğren.",
+                "content": "Headache = Baş ağrısı\nStomachache = Karın ağrısı\nFever = Ateş\nCough = Öksürük\nCold = Soğuk algınlığı\nMedicine = İlaç\nDoctor = Doktor\nHospital = Hastane\nPatient = Hasta\nPain = Ağrı\nHealthy = Sağlıklı\nSick = Hasta",
+                "order": 9,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Sağlık ve Vücut Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Headache ne demektir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Baş ağrısı", "is_correct": true },
+                                    { "text": "Ateş", "is_correct": false },
+                                    { "text": "Öksürük", "is_correct": false },
+                                    { "text": "Karın ağrısı", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Fever ne demektir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Ateş", "is_correct": true },
+                                    { "text": "İlaç", "is_correct": false },
+                                    { "text": "Ağrı", "is_correct": false },
+                                    { "text": "Hastane", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "İlaç kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Medicine", "is_correct": true },
+                                    { "text": "Patient", "is_correct": false },
+                                    { "text": "Doctor", "is_correct": false },
+                                    { "text": "Pain", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hospital ne demektir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Hastane", "is_correct": true },
+                                    { "text": "Doktor", "is_correct": false },
+                                    { "text": "Hasta", "is_correct": false },
+                                    { "text": "İlaç", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Sağlıklı kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Healthy", "is_correct": true },
+                                    { "text": "Sick", "is_correct": false },
+                                    { "text": "Pain", "is_correct": false },
+                                    { "text": "Cold", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Sağlık ve Vücut Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I have a ___. (headache/medicine)",
+                                "correct_answer": "headache",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She has a ___. (fever/doctor)",
+                                "correct_answer": "fever",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "The doctor gave me some ___. (medicine/hospital)",
+                                "correct_answer": "medicine",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "He has a bad ___. (cough/patient)",
+                                "correct_answer": "cough",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "Eating vegetables is ___. (healthy/sick)",
+                                "correct_answer": "healthy",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Sağlık ve Vücut Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I have a headache",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "have" },
+                                    { "text": "a" },
+                                    { "text": "headache" },
+                                    { "text": "teacher" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She has a fever",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She" },
+                                    { "text": "has" },
+                                    { "text": "a" },
+                                    { "text": "fever" },
+                                    { "text": "cough" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I need some medicine",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "need" },
+                                    { "text": "some" },
+                                    { "text": "medicine" },
+                                    { "text": "doctor" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Can / Could / Should / Must",
+                "description": "İngilizcede yetenek, rica, tavsiye, izin ve zorunluluk bildirmek için kullanılan can, could, should ve must yapılarını öğren.",
+                "content": "I can swim. = Yüzebilirim.\nShe can speak English. = O İngilizce konuşabilir.\nCould you help me? = Bana yardım edebilir misin?\nCould I open the window? = Pencereyi açabilir miyim?\nYou should study more. = Daha fazla çalışmalısın.\nYou should see a doctor. = Bir doktora görünmelisin.\nYou must wear a seat belt. = Emniyet kemeri takmalısın.\nYou mustn't smoke here. = Burada sigara içmemelisin.\nWe can go together. = Birlikte gidebiliriz.",
+                "order": 10,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Can / Could / Should / Must Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Yüzebilirim.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I can swim.", "is_correct": true },
+                                    { "text": "I should swim.", "is_correct": false },
+                                    { "text": "I must swimming.", "is_correct": false },
+                                    { "text": "I can swimming.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Bana yardım edebilir misin?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Could you help me?", "is_correct": true },
+                                    { "text": "Could you helping me?", "is_correct": false },
+                                    { "text": "Should you help me?", "is_correct": false },
+                                    { "text": "Must you help me?", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Daha fazla çalışmalısın.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "You should study more.", "is_correct": true },
+                                    { "text": "You can study more.", "is_correct": false },
+                                    { "text": "You should studying more.", "is_correct": false },
+                                    { "text": "You must studying more.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi zorunluluk bildiren doğru bir cümledir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "You must wear a seat belt.", "is_correct": true },
+                                    { "text": "You must wearing a seat belt.", "is_correct": false },
+                                    { "text": "You should wearing a seat belt.", "is_correct": false },
+                                    { "text": "You must to wear a seat belt.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Burada sigara içmemelisin.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "You mustn't smoke here.", "is_correct": true },
+                                    { "text": "You mustn't smoking here.", "is_correct": false },
+                                    { "text": "You shouldn't to smoke here.", "is_correct": false },
+                                    { "text": "You can't smoking here.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Can / Could / Should / Must Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I ___ swim very well. (can/should)",
+                                "correct_answer": "can",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "___ you help me? (Could/Must)",
+                                "correct_answer": "Could",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "You ___ study more. (should/can)",
+                                "correct_answer": "should",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "You ___ wear a seat belt. (must/could)",
+                                "correct_answer": "must",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "You ___ smoke here. (mustn't/can)",
+                                "correct_answer": "mustn't",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Can / Could / Should / Must Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I can swim very well",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "can" },
+                                    { "text": "swim" },
+                                    { "text": "very" },
+                                    { "text": "well" },
+                                    { "text": "slowly" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "You should study more",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "You" },
+                                    { "text": "should" },
+                                    { "text": "study" },
+                                    { "text": "more" },
+                                    { "text": "less" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "You must wear a seat belt",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "You" },
+                                    { "text": "must" },
+                                    { "text": "wear" },
+                                    { "text": "a" },
+                                    { "text": "seat" },
+                                    { "text": "belt" },
+                                    { "text": "jacket" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Countable & Uncountable Nouns",
+                "description": "Sayılabilen ve sayılamayan isimleri, some, any, much, many ve a lot of kullanımlarını öğren.",
+                "content": "Countable nouns sayılabilen isimlerdir: one apple, two apples, three books.\n Uncountable nouns sayılamayan isimlerdir: water, milk, rice, money.\n Countable nouns ile many kullanılır: How many books do you have? \nUncountable nouns ile much kullanılır: How much water do you drink? \nSome olumlu cümlelerde kullanılabilir: I have some apples.\n Any soru ve olumsuz cümlelerde kullanılabilir: Do you have any milk?\n I don't have any money.\n A lot of hem sayılabilen hem sayılamayan isimlerle kullanılabilir: I have a lot of books.\n We drink a lot of water.",
+                "order": 11,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Countable & Uncountable Nouns Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Hangisi sayılabilen (countable) bir isimdir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Apple", "is_correct": true },
+                                    { "text": "Water", "is_correct": false },
+                                    { "text": "Milk", "is_correct": false },
+                                    { "text": "Rice", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi sayılamayan (uncountable) bir isimdir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Water", "is_correct": true },
+                                    { "text": "Book", "is_correct": false },
+                                    { "text": "Chair", "is_correct": false },
+                                    { "text": "Apple", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "How ___ books do you have?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "many", "is_correct": true },
+                                    { "text": "much", "is_correct": false },
+                                    { "text": "any", "is_correct": false },
+                                    { "text": "a lot", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "How ___ water do you drink every day?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "much", "is_correct": true },
+                                    { "text": "many", "is_correct": false },
+                                    { "text": "a few", "is_correct": false },
+                                    { "text": "an", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi doğrudur?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "I have some apples.", "is_correct": true },
+                                    { "text": "I have some apple.", "is_correct": false },
+                                    { "text": "I have much apples.", "is_correct": false },
+                                    { "text": "I have many water.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Countable & Uncountable Nouns Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I have ___ apples. (some/much)",
+                                "correct_answer": "some",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "How ___ money do you have? (much/many)",
+                                "correct_answer": "much",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "How ___ books are there? (many/much)",
+                                "correct_answer": "many",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "I don't have ___ milk. (any/many)",
+                                "correct_answer": "any",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "We have ___ food at home. (a lot of/many)",
+                                "correct_answer": "a lot of",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Countable & Uncountable Nouns Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I have some apples",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "have" },
+                                    { "text": "some" },
+                                    { "text": "apples" },
+                                    { "text": "water" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "How much water do you drink",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "How" },
+                                    { "text": "much" },
+                                    { "text": "water" },
+                                    { "text": "do" },
+                                    { "text": "you" },
+                                    { "text": "drink" },
+                                    { "text": "books" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I don't have any money",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "don't" },
+                                    { "text": "have" },
+                                    { "text": "any" },
+                                    { "text": "money" },
+                                    { "text": "apples" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "Articles – A / An / The",
+                "description": "İngilizcede a, an ve the artikellerinin kullanımını öğren.",
+                "content": "A ve an tekil ve sayılabilen isimlerle kullanılır. \nSessiz harf sesiyle başlayan kelimelerden önce a kullanılır: \na book\n a car\n Sesli harf sesiyle başlayan kelimelerden önce an kullanılır:\n an apple\n an orange\n The belirli bir kişi veya nesneden bahsederken kullanılır:\n The car is red.\n I have a dog.\n The dog is very friendly.",
+                "order": 12,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Articles – A / An / The Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I have ___ apple.",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "an", "is_correct": true },
+                                    { "text": "a", "is_correct": false },
+                                    { "text": "the", "is_correct": false },
+                                    { "text": "some", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "She has ___ car.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "a", "is_correct": true },
+                                    { "text": "an", "is_correct": false },
+                                    { "text": "some", "is_correct": false },
+                                    { "text": "any", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "He is eating ___ orange.",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "an", "is_correct": true },
+                                    { "text": "a", "is_correct": false },
+                                    { "text": "the", "is_correct": false },
+                                    { "text": "many", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "I saw a dog. ___ dog was very friendly.",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "The", "is_correct": true },
+                                    { "text": "A", "is_correct": false },
+                                    { "text": "An", "is_correct": false },
+                                    { "text": "Some", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Which sentence is correct?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "She has an umbrella.", "is_correct": true },
+                                    { "text": "She has a umbrella.", "is_correct": false },
+                                    { "text": "She has the umbrella." ,"is_correct": false },
+                                    { "text": "She has an car.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Articles – A / An / The Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I have ___ book. (a/an)",
+                                "correct_answer": "a",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She is eating ___ apple. (a/an)",
+                                "correct_answer": "an",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "He has ___ new car. (a/an)",
+                                "correct_answer": "a",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "I saw a cat. ___ cat was black. (The/A)",
+                                "correct_answer": "The",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "She has ___ umbrella. (a/an)",
+                                "correct_answer": "an",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Articles – A / An / The Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I have a book",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "have" },
+                                    { "text": "a" },
+                                    { "text": "book" },
+                                    { "text": "apple" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She has an umbrella",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She" },
+                                    { "text": "has" },
+                                    { "text": "an" },
+                                    { "text": "umbrella" },
+                                    { "text": "car" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "The dog is friendly",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "The" },
+                                    { "text": "dog" },
+                                    { "text": "is" },
+                                    { "text": "friendly" },
+                                    { "text": "water" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "Prepositions of Time & Place",
+                "description": "Zaman ve yer bildiren temel edatları öğren: in, on, at, next to, behind, between ve in front of.",
+                "content": "Zaman ifadelerinde in, on ve at kullanılır.\n In aylar ve yıllarla kullanılır: \nin July\n in 2026\n On günler ve tarihlerle kullanılır:\n on Monday\n on June 5 \n At saatlerle kullanılır: \nat 8 o'clock\n Yer bildirirken next to yanında, behind arkasında, between arasında ve in front of önünde anlamına gelir.",
+                "order": 13,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Prepositions of Time & Place Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I wake up ___ 7 o'clock.",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "at", "is_correct": true },
+                                    { "text": "on", "is_correct": false },
+                                    { "text": "in", "is_correct": false },
+                                    { "text": "between", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "I go to school ___ Monday.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "on", "is_correct": true },
+                                    { "text": "at", "is_correct": false },
+                                    { "text": "in", "is_correct": false },
+                                    { "text": "behind", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "My birthday is ___ July.",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "in", "is_correct": true },
+                                    { "text": "on", "is_correct": false },
+                                    { "text": "at", "is_correct": false },
+                                    { "text": "next to", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "The bank is ___ the supermarket and the pharmacy.",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "between", "is_correct": true },
+                                    { "text": "at", "is_correct": false },
+                                    { "text": "in", "is_correct": false },
+                                    { "text": "on", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "The car is ___ the house.",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "in front of", "is_correct": true },
+                                    { "text": "on", "is_correct": false },
+                                    { "text": "at", "is_correct": false },
+                                    { "text": "between", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Prepositions of Time & Place Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I get up ___ 7 o'clock. (at/on)",
+                                "correct_answer": "at",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "We have English ___ Monday. (on/in)",
+                                "correct_answer": "on",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "My birthday is ___ August. (in/on)",
+                                "correct_answer": "in",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "The school is ___ the bank and the park. (between/behind)",
+                                "correct_answer": "between",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "The pharmacy is ___ the hospital. (next to/at)",
+                                "correct_answer": "next to",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Prepositions of Time & Place Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I wake up at seven",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "wake" },
+                                    { "text": "up" },
+                                    { "text": "at" },
+                                    { "text": "seven" },
+                                    { "text": "Monday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "The bank is next to the school",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "The" },
+                                    { "text": "bank" },
+                                    { "text": "is" },
+                                    { "text": "next" },
+                                    { "text": "to" },
+                                    { "text": "the" },
+                                    { "text": "school" },
+                                    { "text": "Monday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "The car is in front of the house",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "The" },
+                                    { "text": "car" },
+                                    { "text": "is" },
+                                    { "text": "in" },
+                                    { "text": "front" },
+                                    { "text": "of" },
+                                    { "text": "the" },
+                                    { "text": "house" },
+                                    { "text": "school" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "Adverbs of Frequency & Manner",
+                "description": "Sıklık ve durum zarflarını kullanarak günlük alışkanlıkları ve eylemlerin nasıl yapıldığını anlatmayı öğren.",
+                "content": "Sıklık zarfları bir eylemin ne kadar sık yapıldığını anlatır:\n always\n usually\n often\n sometimes\n never\n I always drink coffee.\n She usually gets up early.\n They never eat meat.\n Durum zarfları bir eylemin nasıl yapıldığını anlatır:\n quickly\nslowly\n carefully\n quietly\nHe runs quickly.\n She speaks slowly.\n Please drive carefully.",
+                "order": 14,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Adverbs of Frequency & Manner Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Which word means 'her zaman'?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Always", "is_correct": true },
+                                    { "text": "Never", "is_correct": false },
+                                    { "text": "Sometimes", "is_correct": false },
+                                    { "text": "Slowly", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Which word means 'asla'?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Never", "is_correct": true },
+                                    { "text": "Usually", "is_correct": false },
+                                    { "text": "Often", "is_correct": false },
+                                    { "text": "Quickly", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "He runs ___.",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "quickly", "is_correct": true },
+                                    { "text": "never", "is_correct": false },
+                                    { "text": "always", "is_correct": false },
+                                    { "text": "usually", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "She ___ goes to the gym on Sundays.",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "usually", "is_correct": true },
+                                    { "text": "quickly", "is_correct": false },
+                                    { "text": "carefully", "is_correct": false },
+                                    { "text": "slowly", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Please drive ___.",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "carefully", "is_correct": true },
+                                    { "text": "never", "is_correct": false },
+                                    { "text": "always", "is_correct": false },
+                                    { "text": "often", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Adverbs of Frequency & Manner Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I ___ drink coffee in the morning. (always/never)",
+                                "correct_answer": "always",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She ___ eats fast food. (sometimes/never)",
+                                "correct_answer": "sometimes",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "He walks ___. (slowly/usually)",
+                                "correct_answer": "slowly",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "They ___ play football after school. (often/quickly)",
+                                "correct_answer": "often",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "Please listen ___. (carefully/always)",
+                                "correct_answer": "carefully",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Adverbs of Frequency & Manner Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I always drink coffee",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "always" },
+                                    { "text": "drink" },
+                                    { "text": "coffee" },
+                                    { "text": "slowly" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She usually gets up early",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She" },
+                                    { "text": "usually" },
+                                    { "text": "gets" },
+                                    { "text": "up" },
+                                    { "text": "early" },
+                                    { "text": "never" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "He drives carefully",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "He" },
+                                    { "text": "drives" },
+                                    { "text": "carefully" },
+                                    { "text": "always" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "First Conditional",
+                "description": "Gelecekte gerçekleşmesi mümkün olan durumları ve bu durumların sonuçlarını ifade etmek için First Conditional yapısını öğren.",
+                "content": "First Conditional gelecekte gerçekleşmesi mümkün olan durumları anlatmak için kullanılır. \nYapısı: If + Present Simple, will + verb. Örneğin: \nIf it rains, I will stay home. = Eğer yağmur yağarsa evde kalacağım. \nIf you study, you will pass the exam. = Eğer çalışırsan sınavı geçeceksin. \nIf we hurry, we will catch the bus. = Eğer acele edersek otobüse yetişeceğiz.",
+                "order": 15,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "First Conditional Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "If it rains, I ___ at home.",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "will stay", "is_correct": true },
+                                    { "text": "stay", "is_correct": false },
+                                    { "text": "staying", "is_correct": false },
+                                    { "text": "stayed", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "If you study, you ___ the exam.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "will pass", "is_correct": true },
+                                    { "text": "passed", "is_correct": false },
+                                    { "text": "passing", "is_correct": false },
+                                    { "text": "pass will", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "If we hurry, we ___ the bus.",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "will catch", "is_correct": true },
+                                    { "text": "caught", "is_correct": false },
+                                    { "text": "catching", "is_correct": false },
+                                    { "text": "will catching", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Which sentence is correct?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "If I have time, I will call you.", "is_correct": true },
+                                    { "text": "If I will have time, I call you.", "is_correct": false },
+                                    { "text": "If I having time, I will call you.", "is_correct": false },
+                                    { "text": "If I had time, I will call you.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "If she is tired, she ___ home.",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "will go", "is_correct": true },
+                                    { "text": "go will", "is_correct": false },
+                                    { "text": "went", "is_correct": false },
+                                    { "text": "going", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "First Conditional Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "If it rains, I ___ stay home. (will/would)",
+                                "correct_answer": "will",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "If you study, you ___ pass the exam. (will/would)",
+                                "correct_answer": "will",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "If we hurry, we ___ catch the bus. (will/would)",
+                                "correct_answer": "will",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "If I have time, I ___ call you. (will/would)",
+                                "correct_answer": "will",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "If she is tired, she ___ go home. (will/would)",
+                                "correct_answer": "will",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "First Conditional Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "If it rains, I will stay home",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "If" },
+                                    { "text": "it" },
+                                    { "text": "rains" },
+                                    { "text": "I" },
+                                    { "text": "will" },
+                                    { "text": "stay" },
+                                    { "text": "home" },
+                                    { "text": "school" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "If you study, you will pass the exam",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "If" },
+                                    { "text": "you" },
+                                    { "text": "study" },
+                                    { "text": "you" },
+                                    { "text": "will" },
+                                    { "text": "pass" },
+                                    { "text": "the" },
+                                    { "text": "exam" },
+                                    { "text": "yesterday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "If we hurry, we will catch the bus",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "If" },
+                                    { "text": "we" },
+                                    { "text": "hurry" },
+                                    { "text": "we" },
+                                    { "text": "will" },
+                                    { "text": "catch" },
+                                    { "text": "the" },
+                                    { "text": "bus" },
+                                    { "text": "train" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "Şehirde Yön Bulma",
+                "description": "Şehir içinde yol tarifi sormayı, yönleri ve önemli şehir yerlerini anlatmayı öğren.",
+                "content": "turn left = sola dön\n turn right = sağa dön\n go straight = dümdüz git\n cross the street = caddeden karşıya geç\n next to = yanında\nopposite = karşısında\nbetween = arasında\nnear = yakınında\n Excuse me, where is the bank? = Affedersiniz, banka nerede?\n Go straight and turn left. = Dümdüz gidin ve sola dönün.",
+                "order": 16,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Şehirde Yön Bulma Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Sola dön.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Turn left.", "is_correct": true },
+                                    { "text": "Turn right.", "is_correct": false },
+                                    { "text": "Go straight.", "is_correct": false },
+                                    { "text": "Stop here.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Dümdüz git.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Go straight.", "is_correct": true },
+                                    { "text": "Turn left.", "is_correct": false },
+                                    { "text": "Turn right.", "is_correct": false },
+                                    { "text": "Cross the street.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Banka nerede?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Where is the bank?", "is_correct": true },
+                                    { "text": "Where are the bank?", "is_correct": false },
+                                    { "text": "What is the bank?", "is_correct": false },
+                                    { "text": "How is the bank?", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "The pharmacy is ___ the bank and the hospital.",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "between", "is_correct": true },
+                                    { "text": "quickly", "is_correct": false },
+                                    { "text": "at", "is_correct": false },
+                                    { "text": "always", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Which phrase means 'sağ dön'?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Turn right.", "is_correct": true },
+                                    { "text": "Turn left.", "is_correct": false },
+                                    { "text": "Go straight.", "is_correct": false },
+                                    { "text": "Go back.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Şehirde Yön Bulma Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "___ left at the corner. (Turn/Go)",
+                                "correct_answer": "Turn",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "___ straight for two minutes. (Go/Turn)",
+                                "correct_answer": "Go",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "Where ___ the bank? (is/are)",
+                                "correct_answer": "is",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "The school is ___ the bank. (near/quickly)",
+                                "correct_answer": "near",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "The pharmacy is ___ the hospital. (opposite/slowly)",
+                                "correct_answer": "opposite",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Şehirde Yön Bulma Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Turn left at the corner",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Turn" },
+                                    { "text": "left" },
+                                    { "text": "at" },
+                                    { "text": "the" },
+                                    { "text": "corner" },
+                                    { "text": "right" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Go straight to the bank",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Go" },
+                                    { "text": "straight" },
+                                    { "text": "to" },
+                                    { "text": "the" },
+                                    { "text": "bank" },
+                                    { "text": "hospital" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Where is the hospital",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Where" },
+                                    { "text": "is" },
+                                    { "text": "the" },
+                                    { "text": "hospital" },
+                                    { "text": "school" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "Duygular ve Kişilik",
+                "description": "Temel duyguları ve kişilik özelliklerini ifade eden İngilizce kelimeleri ve cümleleri öğren.",
+                "content": "happy = mutlu\nsad = üzgün\nangry = kızgın\ntired = yorgun\nworried = endişeli\nexcited = heyecanlı\nscared = korkmuş\nfriendly = arkadaş canlısı\nshy = utangaç\nlazy = tembel\nhardworking = çalışkan\nfunny = komik\nkind = nazik\nI am happy. = Mutluyum\nShe is shy. = O utangaç.\nHe is hardworking. = O çalışkan.\nThey are excited. = Onlar heyecanlı.",
+                "order": 17,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Duygular ve Kişilik Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "'Mutlu' kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Happy", "is_correct": true },
+                                    { "text": "Sad", "is_correct": false },
+                                    { "text": "Angry", "is_correct": false },
+                                    { "text": "Scared", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Üzgün' kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Sad", "is_correct": true },
+                                    { "text": "Happy", "is_correct": false },
+                                    { "text": "Funny", "is_correct": false },
+                                    { "text": "Kind", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Utangaç' kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Shy", "is_correct": true },
+                                    { "text": "Lazy", "is_correct": false },
+                                    { "text": "Friendly", "is_correct": false },
+                                    { "text": "Excited", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi 'çalışkan' anlamına gelir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Hardworking", "is_correct": true },
+                                    { "text": "Lazy", "is_correct": false },
+                                    { "text": "Scared", "is_correct": false },
+                                    { "text": "Sad", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "She is ___ because she has an exam tomorrow.",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "worried", "is_correct": true },
+                                    { "text": "funny", "is_correct": false },
+                                    { "text": "friendly", "is_correct": false },
+                                    { "text": "lazy", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Duygular ve Kişilik Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "I am ___. (happy/sad)",
+                                "correct_answer": "happy",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She is ___. She doesn't talk much. (shy/funny)",
+                                "correct_answer": "shy",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "He is ___. He works very hard. (hardworking/lazy)",
+                                "correct_answer": "hardworking",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "They are ___. They are going on holiday tomorrow. (excited/angry)",
+                                "correct_answer": "excited",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "My brother is very ___. He always makes us laugh. (funny/sad)",
+                                "correct_answer": "funny",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Duygular ve Kişilik Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I am happy",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I" },
+                                    { "text": "am" },
+                                    { "text": "happy" },
+                                    { "text": "sad" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She is very shy",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She" },
+                                    { "text": "is" },
+                                    { "text": "very" },
+                                    { "text": "shy" },
+                                    { "text": "angry" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "He is hardworking and kind",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "He" },
+                                    { "text": "is" },
+                                    { "text": "hardworking" },
+                                    { "text": "and" },
+                                    { "text": "kind" },
+                                    { "text": "lazy" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+
+        ]
+    }
+}

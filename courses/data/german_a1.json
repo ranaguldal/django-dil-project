@@ -1,0 +1,468 @@
+{
+    "language": {
+        "name": "Almanca",
+        "slug": "almanca",
+        "flag": "german.png",
+        "order":2
+    },
+
+    "level": {
+        "name": "A1"
+    },
+
+    "course": {
+        "title": "Almanca A1 Temel",
+        "description": "Almancaya yeni başlayanlar için temel kelime, ifade ve günlük konuşma konularını öğrenin.",
+        "imageUrl": "german.jpg",
+        "isActive": true,
+
+        "lessons": [
+
+            {
+                "title": "Selamlaşma",
+                "description": "Günlük hayatta kullanılan temel Almanca selamlaşma ifadelerini öğren.",
+                "content": "Hallo = Merhaba\nHi = Selam\nGuten Morgen = Günaydın\nGuten Tag = İyi günler\nGuten Abend = İyi akşamlar\nGute Nacht = İyi geceler\nAuf Wiedersehen = Hoşça kalın\nTschüss = Hoşça kal\nBis bald = Yakında görüşürüz\nWillkommen = Hoş geldin",
+                "order": 1,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Selamlaşma Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Hallo ne demektir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    {
+                                        "text": "Merhaba",
+                                        "is_correct": true
+                                    },
+                                    {
+                                        "text": "İyi geceler",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "Hoşça kal",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "Günaydın",
+                                        "is_correct": false
+                                    }
+                                ]
+                            },
+                            {
+                                "question_text": "Günaydın kelimesinin Almancası hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    {
+                                        "text": "Guten Morgen",
+                                        "is_correct": true
+                                    },
+                                    {
+                                        "text": "Guten Abend",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "Gute Nacht",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "Guten Tag",
+                                        "is_correct": false
+                                    }
+                                ]
+                            },
+                            {
+                                "question_text": "Gute Nacht ne demektir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    {
+                                        "text": "İyi geceler",
+                                        "is_correct": true
+                                    },
+                                    {
+                                        "text": "İyi akşamlar",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "İyi günler",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "Günaydın",
+                                        "is_correct": false
+                                    }
+                                ]
+                            },
+                            {
+                                "question_text": "Tschüss ne demektir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    {
+                                        "text": "Hoşça kal",
+                                        "is_correct": true
+                                    },
+                                    {
+                                        "text": "Hoş geldin",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "Merhaba",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "İyi geceler",
+                                        "is_correct": false
+                                    }
+                                ]
+                            },
+                            {
+                                "question_text": "Willkommen ne demektir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    {
+                                        "text": "Hoş geldin",
+                                        "is_correct": true
+                                    },
+                                    {
+                                        "text": "Hoşça kal",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "Yakında görüşürüz",
+                                        "is_correct": false
+                                    },
+                                    {
+                                        "text": "Selam",
+                                        "is_correct": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Selamlaşma Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "___ Morgen! (Guten/Gute)",
+                                "correct_answer": "Guten",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "___ Abend! (Guten/Gute)",
+                                "correct_answer": "Guten",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "Gute ___! (Nacht/Tag)",
+                                "correct_answer": "Nacht",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "Auf ___! (Wiedersehen/Tschüss)",
+                                "correct_answer": "Wiedersehen",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "Bis ___! (bald/Nacht)",
+                                "correct_answer": "bald",
+                                "order": 5
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Selamlaşma Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru ifadeyi kur. (Dikkat: aralarında ifadeye ait olmayan bir kelime var)",
+                                "correct_answer": "Guten Morgen",
+                                "order": 1,
+                                "choices": [
+                                    {
+                                        "text": "Morgen"
+                                    },
+                                    {
+                                        "text": "Guten"
+                                    },
+                                    {
+                                        "text": "Nacht"
+                                    }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru ifadeyi kur. (Dikkat: aralarında ifadeye ait olmayan bir kelime var)",
+                                "correct_answer": "Guten Abend",
+                                "order": 2,
+                                "choices": [
+                                    {
+                                        "text": "Abend"
+                                    },
+                                    {
+                                        "text": "Guten"
+                                    },
+                                    {
+                                        "text": "Morgen"
+                                    }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru ifadeyi kur. (Dikkat: aralarında ifadeye ait olmayan bir kelime var)",
+                                "correct_answer": "Gute Nacht",
+                                "order": 3,
+                                "choices": [
+                                    {
+                                        "text": "Nacht"
+                                    },
+                                    {
+                                        "text": "Gute"
+                                    },
+                                    {
+                                        "text": "Morgen"
+                                    }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru ifadeyi kur. (Dikkat: aralarında ifadeye ait olmayan bir kelime var)",
+                                "correct_answer": "Auf Wiedersehen",
+                                "order": 4,
+                                "choices": [
+                                    {
+                                        "text": "Wiedersehen"
+                                    },
+                                    {
+                                        "text": "Auf"
+                                    },
+                                    {
+                                        "text": "Morgen"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Kendini Tanıtma",
+                "description": "Almancada kendinizi tanıtmak için kullanılan temel ifadeleri öğren.",
+                "content": "Ich heiße... = Benim adım...\nIch bin... = Ben...\nIch komme aus der Türkei. = Ben Türkiye'liyim.\nFreut mich. = Tanıştığıma memnun oldum.",
+                "order": 2,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Kendini Tanıtma Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Benim adım Ali. cümlesinin Almancası hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Ich heiße Ali.", "is_correct": true },
+                                    { "text": "Ich bin Ali.", "is_correct": false },
+                                    { "text": "Ich komme Ali.", "is_correct": false },
+                                    { "text": "Tschüss Ali.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Tanıştığıma memnun oldum. cümlesinin Almancası hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Freut mich.", "is_correct": true },
+                                    { "text": "Auf Wiedersehen.", "is_correct": false },
+                                    { "text": "Guten Morgen.", "is_correct": false },
+                                    { "text": "Wie geht's?", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Kendini Tanıtma Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Ich ___ Ali. (heiße/komme)",
+                                "correct_answer": "heiße",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "Ich ___ aus der Türkei. (komme/bin)",
+                                "correct_answer": "komme",
+                                "order": 2
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Kendini Tanıtma Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Ich heiße Ali",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "heiße" },
+                                    { "text": "bin" },
+                                    { "text": "Ali" },
+                                    { "text": "Ich" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Ich komme aus der Türkei",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "komme" },
+                                    { "text": "bin" },
+                                    { "text": "der" },
+                                    { "text": "Türkei" },
+                                    { "text": "Ich" },
+                                    { "text": "aus" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "title": "Sayılar",
+                "description": "Almancada 1'den 10'a kadar olan temel sayıları öğren.",
+                "content": "Eins = Bir\nZwei = İki\nDrei = Üç\nVier = Dört\nFünf = Beş\nSechs = Altı\nSieben = Yedi\nAcht = Sekiz\nNeun = Dokuz\nZehn = On",
+                "order": 3,
+                "isActive": true,
+
+                "activities": [
+                    {
+                        "title": "Sayılar Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Fünf ne demektir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Beş", "is_correct": true },
+                                    { "text": "Dört", "is_correct": false },
+                                    { "text": "Altı", "is_correct": false },
+                                    { "text": "Yedi", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Sieben ne demektir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Yedi", "is_correct": true },
+                                    { "text": "Sekiz", "is_correct": false },
+                                    { "text": "Altı", "is_correct": false },
+                                    { "text": "Dokuz", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "8 sayısının Almancası hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Acht", "is_correct": true },
+                                    { "text": "Sieben", "is_correct": false },
+                                    { "text": "Neun", "is_correct": false },
+                                    { "text": "Zehn", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Sayılar Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 2,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "4 + 1 = ___ Äpfel. (fünf/sechs)",
+                                "correct_answer": "fünf",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "5 + 5 = ___ Personen hier. (zehn/neun)",
+                                "correct_answer": "zehn",
+                                "order": 2
+                            }
+                        ]
+                    },
+
+                    {
+                        "title": "Sayılar Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 3,
+                        "isActive": true,
+
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Ich habe fünf Äpfel",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "habe" },
+                                    { "text": "sechs" },
+                                    { "text": "Äpfel" },
+                                    { "text": "Ich" },
+                                    { "text": "fünf" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Es sind zehn Personen",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "sind" },
+                                    { "text": "neun" },
+                                    { "text": "Personen" },
+                                    { "text": "Es" },
+                                    { "text": "zehn" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

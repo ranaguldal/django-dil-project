@@ -1,0 +1,730 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="tr"  data-bs-theme="light">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Dil Öğrenme Platformu</title>
+
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-dark bg-dark">
+
+    <div class="container">
+
+
+        <!-- LOGO -->
+
+        <a
+            class="navbar-brand fw-bold"
+            href="{% url 'home' %}">
+
+            🌍 Lingua
+
+        </a>
+
+
+        <!-- NAVBAR BUTTONS -->
+
+        <div class="d-flex align-items-center gap-2">
+
+            <form action="{% url 'search' %}" method="get" class="d-flex me-2" role="search">
+
+                <input
+                    type="search"
+                    name="q"
+                    class="form-control form-control-sm"
+                    placeholder="Ders veya kurs ara..."
+                    style="width: 180px;">
+
+                <button class="btn btn-sm btn-outline-light ms-1" type="submit">
+                    🔍
+                </button>
+
+            </form>
+
+            {% if user.is_authenticated %}
+            <a href="{% url 'dashboard' %}" class="btn btn-outline-light">
+                📊 Panelim
+            </a>
+            {% endif %}
+            
+
+            <a
+                href="{% url 'home' %}"
+                class="btn btn-outline-light">
+
+                Ana Sayfa
+
+            
+            
+            </a>
+            <a
+                href="{% url 'translate_page' %}"
+                class="btn btn-outline-light">
+
+                🌐 Çeviri
+
+            </a>
+
+            <button
+                id="themeToggle"
+                type="button"
+                class="btn btn-outline-light"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Karanlık Mod / Aydınlık Mod">
+
+                🌓
+
+            </button>
+
+
+            {% if user.is_authenticated %}
+
+
+                <!-- USER -->
+
+                <a
+                    href="{% url 'profile' %}"
+                    class="btn btn-outline-light">
+
+                    👤 {{ user.username }}
+
+                </a>
+
+
+                <!-- LOGOUT -->
+
+                <a
+                    href="{% url 'logout' %}"
+                    class="btn btn-danger">
+
+                    Çıkış Yap
+
+                </a>
+
+
+            {% else %}
+
+
+                <!-- LOGIN -->
+
+                <a
+                    href="{% url 'login' %}"
+                    class="btn btn-outline-light">
+
+                    Giriş Yap
+
+                </a>
+
+
+                <!-- REGISTER -->
+
+                <a
+                    href="{% url 'register' %}"
+                    class="btn btn-primary">
+
+                    Kayıt Ol
+
+                </a>
+
+
+            {% endif %}
+
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- HERO -->
+
+<section class="bg-light py-5">
+
+
+    <div class="container">
+
+
+        <div class="row align-items-center">
+
+
+            <!-- HERO TEXT -->
+
+            <div class="col-lg-6">
+
+
+                <span
+                    class="badge bg-warning text-dark mb-3">
+
+                    🌎 Yeni bir dil öğrenmeye başla
+
+                </span>
+
+
+                <h1 class="display-4 fw-bold">
+
+                    Dünyayı keşfetmenin
+
+                    <span class="text-primary">
+
+                        yeni yolu.
+
+                    </span>
+
+                </h1>
+
+
+                <p class="lead text-secondary mt-3">
+
+                    İngilizce, Almanca, İspanyolca ve daha birçok dili
+                    seviyene uygun dersler ve etkinliklerle hiçbir ücret ödemeden öğren.
+
+                </p>
+
+
+                <div class="mt-4">
+
+
+                    <!-- COURSES -->
+
+                    <a
+                        href="#languages"
+                        class="btn btn-primary btn-lg me-2">
+
+                        Kursları Keşfet
+
+                    </a>
+
+
+                    <!-- HOW IT WORKS -->
+
+                    <a
+                        href="#how-it-works"
+                        class="btn btn-outline-dark btn-lg">
+
+                        Nasıl Çalışır?
+
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- HERO VISUAL -->
+
+            <div
+                class="col-lg-6 text-center mt-5 mt-lg-0">
+
+
+                <div class="display-1">
+
+                    🌍
+
+                </div>
+
+
+                <h3 class="fw-bold mt-3">
+
+                    Öğren. Pratik Yap. Geliş.
+
+                </h3>
+
+
+                <p class="text-secondary">
+
+                    Kendi hızında öğren ve seviyeni sürekli geliştir.
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- LANGUAGES -->
+
+<section
+    id="languages"
+    class="py-5">
+
+
+    <div class="container">
+
+
+        <div class="text-center mb-5">
+
+
+            <h2 class="fw-bold">
+
+                Popüler Diller
+
+            </h2>
+
+
+            <p class="text-secondary">
+
+                Öğrenmek istediğin dili seç ve hemen başla.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="row g-4">
+
+
+            {% for language in languages %}
+
+
+            <div class="col-md-4">
+
+
+                <div
+                    class="card h-100 shadow-sm border-0">
+
+
+                    <div
+                        class="card-body text-center p-4">
+
+
+                        <!-- FLAG -->
+
+                        <div class="mb-3">
+
+
+                            <img
+                                src="{% static 'images/flags/' %}{{ language.flag }}"
+                                alt="{{ language.name }}"
+                                width="80"
+                                height="50">
+
+                        </div>
+
+
+                        <!-- LANGUAGE NAME -->
+
+                        <h4 class="fw-bold">
+
+                            {{ language.name }}
+
+                        </h4>
+
+
+                        <!-- DESCRIPTION -->
+
+                        <p class="text-secondary">
+
+                            {{ language.name }}
+                            öğrenmeye başla.
+
+                        </p>
+
+
+                        <!-- COURSES -->
+
+                        <a
+                            href="{% url 'language_courses' language.slug %}"
+                            class="btn btn-outline-primary">
+
+                            Kursları Gör
+
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+            {% empty %}
+
+
+            <div class="col-12 text-center">
+
+
+                <p class="text-secondary">
+
+                    Henüz kayıtlı bir dil bulunmuyor.
+
+                </p>
+
+
+            </div>
+
+
+            {% endfor %}
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- HOW IT WORKS -->
+
+<section
+    id="how-it-works"
+    class="bg-light py-5">
+
+
+    <div class="container">
+
+
+        <div class="text-center mb-5">
+
+
+            <h2 class="fw-bold">
+
+                Lingua Nasıl Çalışır?
+
+            </h2>
+
+
+            <p class="text-secondary">
+
+                Dil öğrenme sürecini birkaç basit adımda tamamla.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="row g-4">
+
+
+            <!-- STEP 1 -->
+
+            <div class="col-md-4">
+
+
+                <div
+                    class="card h-100 border-0 shadow-sm text-center">
+
+
+                    <div class="card-body p-4">
+
+
+                        <div class="display-5 mb-3">
+
+                            🌍
+
+                        </div>
+
+
+                        <h4 class="fw-bold">
+
+                            1. Dilini Seç
+
+                        </h4>
+
+
+                        <p class="text-secondary">
+
+                            Öğrenmek istediğin dili seç ve
+                            seviyene uygun kurslara göz at.
+
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- STEP 2 -->
+
+            <div class="col-md-4">
+
+
+                <div
+                    class="card h-100 border-0 shadow-sm text-center">
+
+
+                    <div class="card-body p-4">
+
+
+                        <div class="display-5 mb-3">
+
+                            📚
+
+                        </div>
+
+
+                        <h4 class="fw-bold">
+
+                            2. Dersleri Öğren
+
+                        </h4>
+
+
+                        <p class="text-secondary">
+
+                            Ders içeriklerini incele,
+                            yeni kelimeler ve ifadeler öğren.
+
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- STEP 3 -->
+
+            <div class="col-md-4">
+
+
+                <div
+                    class="card h-100 border-0 shadow-sm text-center">
+
+
+                    <div class="card-body p-4">
+
+
+                        <div class="display-5 mb-3">
+
+                            🧠
+
+                        </div>
+
+
+                        <h4 class="fw-bold">
+
+                            3. Etkinliklerle Pratik Yap
+
+                        </h4>
+
+
+                        <p class="text-secondary">
+
+                            Öğrendiklerini etkinliklerle test et
+                            ve gelişimini takip et.
+
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- QUIZ SECTION -->
+
+<section class="bg-primary text-white py-5">
+
+
+    <div class="container">
+
+
+        <div class="row align-items-center">
+
+
+            <div class="col-md-8">
+
+
+                <h2 class="fw-bold">
+
+                    🧠 Bilgini Quizlerle Test Et
+
+                </h2>
+
+
+                <p class="lead mb-0">
+
+                    Öğrendiğin kelimeleri ve konuları quizlerle
+                    tekrar et ve seviyeni geliştir.
+
+                </p>
+
+
+            </div>
+
+
+            <div
+                class="col-md-4 text-md-end mt-4 mt-md-0">
+
+
+                <a
+                    href="#languages"
+                    class="btn btn-light btn-lg">
+
+                    Kurslara Git
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer class="bg-dark text-white py-4">
+
+
+    <div class="container">
+
+
+        <div class="row">
+
+
+            <div class="col-md-6">
+
+
+                <h5 class="fw-bold">
+
+                    🌍 Lingua
+
+                </h5>
+
+
+                <p class="text-secondary mb-0">
+
+                    Dil öğrenmeyi daha kolay ve eğlenceli
+                    hale getiriyoruz.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div
+                class="col-md-6 text-md-end">
+
+
+                <p class="text-secondary mb-0">
+
+                    © 2026 Lingua.
+                    Tüm hakları saklıdır.
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</footer>
+
+
+<script>
+(function () {
+    const html = document.documentElement;
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-bs-theme', savedTheme);
+
+    document.getElementById('themeToggle').addEventListener('click', function () {
+        const current = html.getAttribute('data-bs-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-bs-theme', next);
+        localStorage.setItem('theme', next);
+    });
+})();
+
+document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
+    new bootstrap.Tooltip(el);
+});
+
+</script>
+
+
+
+<!-- BOOTSTRAP JS -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+
+</body>
+
+</html>
