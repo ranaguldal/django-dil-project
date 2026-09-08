@@ -1,0 +1,1 @@
+web: gunicorn dilproje.wsgi:application
