@@ -14,6 +14,7 @@ from pathlib import Path
 from decouple import config
 import os
 import dj_database_url
+import sentry_sdk
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -90,12 +91,9 @@ WSGI_APPLICATION = 'dilproje.wsgi.application'
 DATABASE_URL = config('DATABASE_URL', default=None)
 
 if DATABASE_URL:
-    DATABASES = {
-        'default': dj_database_url.config(
-            default=DATABASE_URL,
-            conn_max_age=600,
-        )
-    }
+   DATABASES = {
+    'default': dj_database_url.parse(DATABASE_URL, conn_max_age=600)
+    }  
 else:
     DATABASES = {
         'default': {
@@ -158,5 +156,13 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 DEEPL_API_KEY = config('DEEPL_API_KEY')
+
+SENTRY_DSN = config('SENTRY_DSN', default=None)
+if SENTRY_DSN:
+    sentry_sdk.init(
+        dsn=SENTRY_DSN,
+        send_default_pii=False,
+    )
+
 
 DATA_UPLOAD_MAX_NUMBER_FIELDS = 5000
