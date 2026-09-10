@@ -1,0 +1,1970 @@
+{
+    "language": {
+        "name": "İngilizce",
+        "slug": "ingilizce",
+        "flag": "english.png",
+        "order": 1
+    },
+    "level": {
+        "name": "B1"
+    },
+    "course": {
+        "title": "İngilizce B1 Orta-Üstü Seviye",
+        "description": "Present Perfect, ikinci koşul cümleleri gibi daha karmaşık dilbilgisi yapılarını; iş, teknoloji ve çevre gibi güncel konularda kelime dağarcığınızı geliştirin.",
+        "imageUrl": "englishb1.jpg",
+        "isActive": true,
+        "lessons": [
+            {
+                "title": "Present Perfect (Yaşanmış Deneyimler ve Sonuçlar)",
+                "description": "Geçmişte gerçekleşmiş ama şimdiki zamanla bağlantılı olan olayları, deneyimleri ve henüz süregelen durumları anlatmak için kullanılan Present Perfect zamanını öğren.",
+                "content": "Present Perfect, geçmişte başlayıp etkisi ya da sonucu hâlâ süren olayları, ya da ne zaman olduğu önemli olmayan hayat deneyimlerini anlatmak için kullanılır. Yapısı: have/has + fiilin 3. hali (V3).\n\nI have visited Paris. = Ben Paris'i ziyaret ettim. (Ne zaman olduğu önemli değil, deneyim önemli)\nShe has finished her homework. = O ödevini bitirdi. (Sonuç şu an önemli: ödev artık bitmiş durumda)\nWe have lived here for five years. = Biz beş yıldır burada yaşıyoruz. (Beş yıl önce başladı, hâlâ devam ediyor)\nThey have never been to Japan. = Onlar hiç Japonya'ya gitmediler.\nHave you ever eaten sushi? = Hiç suşi yedin mi?\nI haven't seen that movie yet. = O filmi henüz izlemedim.\nHe has just arrived. = O az önce geldi.\n\nSık Kullanılan Zaman Zarfları:\nEver = hiç (genellikle soru cümlelerinde kullanılır)\nNever = hiç (olumsuz anlamda, cümlede zaten olumsuzluk taşır)\nJust = az önce (yakın zamanda gerçekleşmiş bir eylem için)\nAlready = zaten / çoktan (genellikle olumlu cümlelerde, beklenenden önce olduğunu vurgular)\nYet = henüz (olumsuz ve soru cümlelerinde, cümle sonunda kullanılır)\nFor = bir sürenin uzunluğunu belirtir (for five years = beş yıldır)\nSince = bir başlangıç noktasını belirtir (since 2020 = 2020'den beri)\n\nÖnemli Kural: Present Perfect, 'yesterday', 'last week', '2019'da' gibi belirli/net bir geçmiş zaman ifadesiyle birlikte KULLANILMAZ. Böyle bir zaman ifadesi varsa Past Simple kullanılır: 'I visited Paris last year.' (Present Perfect DEĞİL, Past Simple)",
+                "order": 1,
+                "isActive": true,
+                "activities": [
+                    {
+                        "title": "Present Perfect Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'Ben hiç Japonya'ya gitmedim.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I have never been to Japan.", "is_correct": true },
+                                    { "text": "I never go to Japan.", "is_correct": false },
+                                    { "text": "I have never went to Japan.", "is_correct": false },
+                                    { "text": "I am never been to Japan.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'O ödevini bitirdi.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She has finished her homework.", "is_correct": true },
+                                    { "text": "She has finish her homework.", "is_correct": false },
+                                    { "text": "She have finished her homework.", "is_correct": false },
+                                    { "text": "She finished has her homework.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Beş yıldır burada yaşıyoruz.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "We have lived here for five years.", "is_correct": true },
+                                    { "text": "We live here for five years.", "is_correct": false },
+                                    { "text": "We have lived here since five years.", "is_correct": false },
+                                    { "text": "We had lived here for five years.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Hiç suşi yedin mi?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Have you ever eaten sushi?", "is_correct": true },
+                                    { "text": "Do you ever eat sushi?", "is_correct": false },
+                                    { "text": "Have you ever ate sushi?", "is_correct": false },
+                                    { "text": "Are you ever eating sushi?", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'O az önce geldi.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "He has just arrived.", "is_correct": true },
+                                    { "text": "He just arrived has.", "is_correct": false },
+                                    { "text": "He has just arrive.", "is_correct": false },
+                                    { "text": "He is just arrived.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangi cümle 'O filmi henüz izlemedim.' anlamına gelir?",
+                                "correct_answer": "",
+                                "order": 6,
+                                "choices": [
+                                    { "text": "I haven't seen that movie yet.", "is_correct": true },
+                                    { "text": "I haven't seen that movie already.", "is_correct": false },
+                                    { "text": "I haven't see that movie yet.", "is_correct": false },
+                                    { "text": "I don't have seen that movie yet.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Present Perfect Ek Alıştırma",
+                        "activity_type": "multiple_choice",
+                        "order": 2,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Present Perfect'in yapısı nedir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "have/has + fiilin 3. hali (V3)", "is_correct": true },
+                                    { "text": "have/has + fiilin yalın hali (V1)", "is_correct": false },
+                                    { "text": "was/were + fiil + ing", "is_correct": false },
+                                    { "text": "will + fiilin yalın hali (V1)", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Ever' kelimesi genellikle hangi tür cümlelerde kullanılır?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Soru cümlelerinde", "is_correct": true },
+                                    { "text": "Sadece olumlu cümlelerde", "is_correct": false },
+                                    { "text": "Sadece emir cümlelerinde", "is_correct": false },
+                                    { "text": "Sadece gelecek zaman cümlelerinde", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'For' ve 'Since' arasındaki fark nedir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "'For' bir sürenin uzunluğunu, 'Since' bir başlangıç noktasını belirtir.", "is_correct": true },
+                                    { "text": "'For' bir başlangıç noktasını, 'Since' bir sürenin uzunluğunu belirtir.", "is_correct": false },
+                                    { "text": "İkisi de tamamen aynı anlama gelir ve yer değiştirilebilir.", "is_correct": false },
+                                    { "text": "'For' yalnızca Past Simple ile kullanılır.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Present Perfect hangi zaman ifadesiyle BİRLİKTE kullanılmaz?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "yesterday (belirli bir geçmiş an)", "is_correct": true },
+                                    { "text": "for five years (bir süre)", "is_correct": false },
+                                    { "text": "ever (hiç, soru cümlesinde)", "is_correct": false },
+                                    { "text": "already (zaten)", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Yet' kelimesi genellikle nerede kullanılır?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Olumsuz ve soru cümlelerinde", "is_correct": true },
+                                    { "text": "Sadece olumlu cümlelerde", "is_correct": false },
+                                    { "text": "Sadece emir cümlelerinde", "is_correct": false },
+                                    { "text": "Sadece geçmiş zamanda", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Present Perfect Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 3,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "I ___ visited Paris twice. (have/has)",
+                                "correct_answer": "have",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She ___ finished her homework. (have/has)",
+                                "correct_answer": "has",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "We ___ never been to Japan. (have/has)",
+                                "correct_answer": "have",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "___ you ever eaten sushi? (Have/Has)",
+                                "correct_answer": "Have",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "He ___ just arrived. (have/has)",
+                                "correct_answer": "has",
+                                "order": 5
+                            },
+                            {
+                                "question_text": "I haven't seen that movie ___. (yet/already)",
+                                "correct_answer": "yet",
+                                "order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Present Perfect Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 4,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I have visited Paris",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "have" },
+                                    { "text": "visited" },
+                                    { "text": "Paris" },
+                                    { "text": "I" },
+                                    { "text": "yesterday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She has finished her homework",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "has" },
+                                    { "text": "finished" },
+                                    { "text": "homework" },
+                                    { "text": "her" },
+                                    { "text": "She" },
+                                    { "text": "yesterday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "We have lived here for five years",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "have" },
+                                    { "text": "lived" },
+                                    { "text": "here" },
+                                    { "text": "for" },
+                                    { "text": "five" },
+                                    { "text": "years" },
+                                    { "text": "We" },
+                                    { "text": "yesterday" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Have you ever eaten sushi",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "you" },
+                                    { "text": "ever" },
+                                    { "text": "eaten" },
+                                    { "text": "sushi" },
+                                    { "text": "Have" },
+                                    { "text": "yesterday" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "İş ve Kariyer",
+                "description": "İş başvurusu, mülakat, terfi ve günlük iş hayatıyla ilgili temel kelime ve ifadeleri öğren.",
+                "content": "İş hayatı ve kariyer, B1 seviyesinde sıkça karşılaşacağınız güncel konulardan biridir. Bu derste hem meslek ortamıyla ilgili genel kelimeleri hem de iş başvurusu, mülakat, terfi ve maaş gibi kariyer kavramlarını öğreneceksiniz.\n\nJob = İş\nCareer = Kariyer\nApplication = Başvuru\nResume / CV = Özgeçmiş\nInterview = Mülakat\nSalary = Maaş\nPromotion = Terfi\nColleague = İş arkadaşı\nBoss = Patron\nEmployee = Çalışan\nEmployer = İşveren\nDeadline = Son teslim tarihi\nMeeting = Toplantı\nTo apply for a job = Bir işe başvurmak\nTo get promoted = Terfi almak\nTo resign = İstifa etmek\nTo be fired = Kovulmak\nTo hire = İşe almak\n\nÖrnek Cümleler:\nI applied for a new job last week. = Geçen hafta yeni bir işe başvurdum.\nShe got promoted to manager. = O müdürlüğe terfi etti.\nHe was fired because he was always late. = O her zaman geç kaldığı için kovuldu.\nWe have a meeting at 9 AM. = Saat 9'da bir toplantımız var.\nMy boss is very strict, but fair. = Patronum çok katı ama adil.\nShe decided to resign after ten years. = O on yıl sonra istifa etmeye karar verdi.\nThe company hired three new employees. = Şirket üç yeni çalışan işe aldı.",
+                "order": 2,
+                "isActive": true,
+                "activities": [
+                    {
+                        "title": "İş ve Kariyer Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Resume / CV ne demektir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Özgeçmiş", "is_correct": true },
+                                    { "text": "Mülakat", "is_correct": false },
+                                    { "text": "Maaş", "is_correct": false },
+                                    { "text": "Terfi", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Terfi kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Promotion", "is_correct": true },
+                                    { "text": "Application", "is_correct": false },
+                                    { "text": "Deadline", "is_correct": false },
+                                    { "text": "Colleague", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "To resign ne demektir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "İstifa etmek", "is_correct": true },
+                                    { "text": "İşe almak", "is_correct": false },
+                                    { "text": "Kovulmak", "is_correct": false },
+                                    { "text": "Terfi almak", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "To be fired ne demektir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Kovulmak", "is_correct": true },
+                                    { "text": "İstifa etmek", "is_correct": false },
+                                    { "text": "İşe alınmak", "is_correct": false },
+                                    { "text": "Terfi almak", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Son teslim tarihi kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Deadline", "is_correct": true },
+                                    { "text": "Meeting", "is_correct": false },
+                                    { "text": "Interview", "is_correct": false },
+                                    { "text": "Application", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Employer ne demektir?",
+                                "correct_answer": "",
+                                "order": 6,
+                                "choices": [
+                                    { "text": "İşveren", "is_correct": true },
+                                    { "text": "Çalışan", "is_correct": false },
+                                    { "text": "İş arkadaşı", "is_correct": false },
+                                    { "text": "Patron (günlük konuşmada)", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "İş ve Kariyer Ek Alıştırma",
+                        "activity_type": "multiple_choice",
+                        "order": 2,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'Bir işe başvurmak' ifadesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "To apply for a job", "is_correct": true },
+                                    { "text": "To resign for a job", "is_correct": false },
+                                    { "text": "To hire for a job", "is_correct": false },
+                                    { "text": "To fire for a job", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'O müdürlüğe terfi etti.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "She got promoted to manager.", "is_correct": true },
+                                    { "text": "She got fired to manager.", "is_correct": false },
+                                    { "text": "She applied promoted manager.", "is_correct": false },
+                                    { "text": "She resigned to manager.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Şirket üç yeni çalışan işe aldı.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "The company hired three new employees.", "is_correct": true },
+                                    { "text": "The company fired three new employees.", "is_correct": false },
+                                    { "text": "The company applied three new employees.", "is_correct": false },
+                                    { "text": "The company resigned three new employees.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Saat 9'da bir toplantımız var.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "We have a meeting at 9 AM.", "is_correct": true },
+                                    { "text": "We have an interview at 9 AM.", "is_correct": false },
+                                    { "text": "We have a deadline at 9 AM.", "is_correct": false },
+                                    { "text": "We have a salary at 9 AM.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Colleague ne demektir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "İş arkadaşı", "is_correct": true },
+                                    { "text": "Patron", "is_correct": false },
+                                    { "text": "İşveren", "is_correct": false },
+                                    { "text": "Çalışan (genel anlamda)", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "İş ve Kariyer Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 3,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "I applied for a new ___ last week. (job/salary)",
+                                "correct_answer": "job",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "She got ___ to manager. (promoted/fired)",
+                                "correct_answer": "promoted",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "He was ___ because he was always late. (fired/hired)",
+                                "correct_answer": "fired",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "We have a ___ at 9 AM. (meeting/deadline)",
+                                "correct_answer": "meeting",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "The company ___ three new employees. (hired/resigned)",
+                                "correct_answer": "hired",
+                                "order": 5
+                            },
+                            {
+                                "question_text": "She decided to ___ after ten years. (resign/apply)",
+                                "correct_answer": "resign",
+                                "order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "title": "İş ve Kariyer Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 4,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I applied for a new job",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "applied" },
+                                    { "text": "for" },
+                                    { "text": "a" },
+                                    { "text": "new" },
+                                    { "text": "job" },
+                                    { "text": "I" },
+                                    { "text": "banana" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She got promoted to manager",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "got" },
+                                    { "text": "promoted" },
+                                    { "text": "to" },
+                                    { "text": "manager" },
+                                    { "text": "She" },
+                                    { "text": "banana" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "We have a meeting",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "have" },
+                                    { "text": "a" },
+                                    { "text": "meeting" },
+                                    { "text": "We" },
+                                    { "text": "banana" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "The company hired three employees",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "company" },
+                                    { "text": "hired" },
+                                    { "text": "three" },
+                                    { "text": "employees" },
+                                    { "text": "The" },
+                                    { "text": "banana" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Present Perfect vs Past Simple",
+                "description": "Present Perfect ve Past Simple zamanları arasındaki farkı, ne zaman hangisinin kullanılacağını örneklerle öğren.",
+                "content": "Present Perfect ve Past Simple, ikisi de geçmişte olmuş bir şeyi anlatır, ama kullanım amaçları farklıdır. Past Simple, ne zaman olduğu belirtilen ve tamamen bitmiş olaylar için kullanılır. Present Perfect ise ne zaman olduğu önemli olmayan veya şimdiki zamanla bağlantılı olaylar için kullanılır.\n\nI visited Paris in 2019. = 2019'da Paris'i ziyaret ettim. (Past Simple - belirli bir zaman var)\nI have visited Paris. = Paris'i ziyaret ettim. (Present Perfect - ne zaman olduğu önemli değil)\nShe finished the report yesterday. = O raporu dün bitirdi. (Past Simple)\nShe has finished the report. = O raporu bitirdi. (Present Perfect - sonuç şu an önemli)\nDid you see that movie last night? = Dün gece o filmi izledin mi? (Past Simple)\nHave you seen that movie? = O filmi izledin mi hiç? (Present Perfect)\n\nKarşılaştırma:\nPast Simple: belirli bir zaman ifadesiyle kullanılır (yesterday, last week, in 2019, two days ago).\nPresent Perfect: belirli bir zaman ifadesi OLMADAN, ya da for/since ile kullanılır.\n\nUnutmayın: 'Ago' kelimesi sadece Past Simple ile kullanılır: 'I saw him two days ago.' (DOĞRU) - 'I have seen him two days ago.' (YANLIŞ)",
+                "order": 3,
+                "isActive": true,
+                "activities": [
+                    {
+                        "title": "Present Perfect vs Past Simple Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Present Perfect kullanarak 'Ben Paris'i ziyaret ettim (ne zaman olduğu önemli değil).' cümlesini ifade et.",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "I have visited Paris.", "is_correct": true },
+                                    { "text": "I visited Paris.", "is_correct": false },
+                                    { "text": "I have visit Paris.", "is_correct": false },
+                                    { "text": "I has visited Paris.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Past Simple kullanarak '2019'da Paris'i ziyaret ettim.' cümlesini ifade et.",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "I visited Paris in 2019.", "is_correct": true },
+                                    { "text": "I have visited Paris in 2019.", "is_correct": false },
+                                    { "text": "I have visited Paris since 2019.", "is_correct": false },
+                                    { "text": "I was visited Paris in 2019.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Present Perfect kullanarak 'O raporu bitirdi (sonuç şu an önemli).' cümlesini ifade et.",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "She has finished the report.", "is_correct": true },
+                                    { "text": "She finished the report.", "is_correct": false },
+                                    { "text": "She have finished the report.", "is_correct": false },
+                                    { "text": "She has finish the report.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Past Simple kullanarak 'O raporu dün bitirdi.' cümlesini ifade et.",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "She finished the report yesterday.", "is_correct": true },
+                                    { "text": "She has finished the report yesterday.", "is_correct": false },
+                                    { "text": "She has finished the report.", "is_correct": false },
+                                    { "text": "She finish the report yesterday.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Present Perfect kullanarak 'O filmi hiç izledin mi?' diye sor.",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Have you seen that movie?", "is_correct": true },
+                                    { "text": "Did you see that movie?", "is_correct": false },
+                                    { "text": "Have you saw that movie?", "is_correct": false },
+                                    { "text": "Do you have seen that movie?", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Past Simple kullanarak 'Dün gece o filmi izledin mi?' diye sor.",
+                                "correct_answer": "",
+                                "order": 6,
+                                "choices": [
+                                    { "text": "Did you see that movie last night?", "is_correct": true },
+                                    { "text": "Have you seen that movie last night?", "is_correct": false },
+                                    { "text": "Did you saw that movie last night?", "is_correct": false },
+                                    { "text": "Do you see that movie last night?", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Present Perfect vs Past Simple Ek Alıştırma",
+                        "activity_type": "multiple_choice",
+                        "order": 2,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'Ago' kelimesi hangi zamanla kullanılır?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Past Simple", "is_correct": true },
+                                    { "text": "Present Perfect", "is_correct": false },
+                                    { "text": "Her ikisiyle de eşit sıklıkta", "is_correct": false },
+                                    { "text": "Hiçbiriyle kullanılmaz", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Yesterday', 'last week' gibi belirli zaman ifadeleri hangi zamanla kullanılır?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Past Simple", "is_correct": true },
+                                    { "text": "Present Perfect", "is_correct": false },
+                                    { "text": "Future Simple", "is_correct": false },
+                                    { "text": "Present Continuous", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'For' ve 'Since' hangi zamanla sıkça kullanılır?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Present Perfect", "is_correct": true },
+                                    { "text": "Past Simple", "is_correct": false },
+                                    { "text": "Her ikisiyle eşit sıklıkta", "is_correct": false },
+                                    { "text": "Hiçbiriyle kullanılmaz", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Bir olayın ne zaman olduğu belirtiliyorsa hangi zaman kullanılır?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Past Simple", "is_correct": true },
+                                    { "text": "Present Perfect", "is_correct": false },
+                                    { "text": "Future Simple", "is_correct": false },
+                                    { "text": "Present Continuous", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Bir olayın sonucu şu an önemliyse ama ne zaman olduğu belirtilmiyorsa hangi zaman kullanılır?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Present Perfect", "is_correct": true },
+                                    { "text": "Past Simple", "is_correct": false },
+                                    { "text": "Future Simple", "is_correct": false },
+                                    { "text": "Past Continuous", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Present Perfect vs Past Simple Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 3,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "I ___ Paris in 2019. (visited/have visited)",
+                                "correct_answer": "visited",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "I ___ Paris. (visited/have visited) - ne zaman olduğu belirtilmiyor",
+                                "correct_answer": "have visited",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "She ___ the report yesterday. (finished/has finished)",
+                                "correct_answer": "finished",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "___ you seen that movie? (Have/Did)",
+                                "correct_answer": "Have",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "___ you see that movie last night? (Have/Did)",
+                                "correct_answer": "Did",
+                                "order": 5
+                            },
+                            {
+                                "question_text": "I saw him two days ___. (ago/since)",
+                                "correct_answer": "ago",
+                                "order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Present Perfect vs Past Simple Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 4,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I visited Paris in 2019",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "visited" },
+                                    { "text": "Paris" },
+                                    { "text": "in" },
+                                    { "text": "2019" },
+                                    { "text": "I" },
+                                    { "text": "pizza" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I have visited Paris",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "have" },
+                                    { "text": "visited" },
+                                    { "text": "Paris" },
+                                    { "text": "I" },
+                                    { "text": "pizza" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She finished the report yesterday",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "finished" },
+                                    { "text": "the" },
+                                    { "text": "report" },
+                                    { "text": "yesterday" },
+                                    { "text": "She" },
+                                    { "text": "pizza" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Have you seen that movie",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "you" },
+                                    { "text": "seen" },
+                                    { "text": "that" },
+                                    { "text": "movie" },
+                                    { "text": "Have" },
+                                    { "text": "pizza" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Second Conditional (İkinci Koşul Cümleleri)",
+                "description": "Şu anki gerçekliğe uymayan hayali veya gerçekleşmesi düşük durumları anlatmak için kullanılan Second Conditional yapısını öğren.",
+                "content": "İkinci koşul cümlesi (Second Conditional), şu anki gerçekliğe uymayan hayali veya gerçekleşmesi çok düşük durumları anlatmak için kullanılır. Yapısı: If + Past Simple, ... would + fiilin yalın hali (V1).\n\nIf I had a lot of money, I would travel around the world. = Çok param olsaydı, dünyayı gezerdim. (Şu an param yok)\nIf I were you, I would talk to her. = Senin yerinde olsam, onunla konuşurdum. ('were' herkes için kullanılır, 'was' değil)\nIf she studied harder, she would pass the exam. = Daha çok çalışsaydı, sınavı geçerdi.\nWhat would you do if you won the lottery? = Piyangoyu kazansan ne yapardın?\nIf it rained, we would stay home. = Yağmur yağsaydı, evde kalırdık.\n\nÖnemli Noktalar:\n- 'If' cümleciğinde Past Simple kullanılır, ama anlam GEÇMİŞ değil, şimdiki/gelecekteki hayali bir durumdur.\n- 'To be' fiili için tüm özneler ile 'were' kullanılır (I were, he were, she were) - standart kullanım budur.\n- Sonuç cümleciğinde (main clause) 'would' + fiilin yalın hali kullanılır.\n- Gerçekleşmesi olası durumlar için First Conditional (If + Present Simple, will + V1) kullanılır; Second Conditional ise gerçekleşmesi zor veya imkansız durumlar içindir.",
+                "order": 4,
+                "isActive": true,
+                "activities": [
+                    {
+                        "title": "Second Conditional Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'Çok param olsaydı, dünyayı gezerdim.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "If I had a lot of money, I would travel around the world.", "is_correct": true },
+                                    { "text": "If I have a lot of money, I will travel around the world.", "is_correct": false },
+                                    { "text": "If I had a lot of money, I will travel around the world.", "is_correct": false },
+                                    { "text": "If I would have a lot of money, I traveled around the world.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Senin yerinde olsam, onunla konuşurdum.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "If I were you, I would talk to her.", "is_correct": true },
+                                    { "text": "If I was you, I would talk to her.", "is_correct": false },
+                                    { "text": "If I am you, I will talk to her.", "is_correct": false },
+                                    { "text": "If I were you, I talk to her.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Daha çok çalışsaydı, sınavı geçerdi.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "If she studied harder, she would pass the exam.", "is_correct": true },
+                                    { "text": "If she studies harder, she will pass the exam.", "is_correct": false },
+                                    { "text": "If she studied harder, she will pass the exam.", "is_correct": false },
+                                    { "text": "If she would study harder, she passed the exam.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Piyangoyu kazansan ne yapardın?' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "What would you do if you won the lottery?", "is_correct": true },
+                                    { "text": "What will you do if you win the lottery?", "is_correct": false },
+                                    { "text": "What would you do if you win the lottery?", "is_correct": false },
+                                    { "text": "What did you do if you won the lottery?", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Yağmur yağsaydı, evde kalırdık.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "If it rained, we would stay home.", "is_correct": true },
+                                    { "text": "If it rains, we will stay home.", "is_correct": false },
+                                    { "text": "If it rained, we will stay home.", "is_correct": false },
+                                    { "text": "If it would rain, we stayed home.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangi cümle doğru bir Second Conditional cümlesidir?",
+                                "correct_answer": "",
+                                "order": 6,
+                                "choices": [
+                                    { "text": "If I had time, I would help you.", "is_correct": true },
+                                    { "text": "If I have time, I would help you.", "is_correct": false },
+                                    { "text": "If I had time, I will help you.", "is_correct": false },
+                                    { "text": "If I would have time, I help you.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Second Conditional Ek Alıştırma",
+                        "activity_type": "multiple_choice",
+                        "order": 2,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Second Conditional'ın yapısı nedir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "If + Past Simple, ... would + fiilin yalın hali", "is_correct": true },
+                                    { "text": "If + Present Simple, ... will + fiilin yalın hali", "is_correct": false },
+                                    { "text": "If + Present Perfect, ... would + fiilin yalın hali", "is_correct": false },
+                                    { "text": "If + Past Perfect, ... would have + fiilin 3. hali", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Second Conditional hangi tür durumlar için kullanılır?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Şu anki gerçekliğe uymayan hayali durumlar", "is_correct": true },
+                                    { "text": "Kesinlikle gerçekleşecek durumlar", "is_correct": false },
+                                    { "text": "Geçmişte gerçekleşmiş durumlar", "is_correct": false },
+                                    { "text": "Şu anda devam eden durumlar", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Second Conditional'ın 'if' cümleciğinde 'to be' fiili tüm özneler için nasıl kullanılır?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "were", "is_correct": true },
+                                    { "text": "was", "is_correct": false },
+                                    { "text": "is", "is_correct": false },
+                                    { "text": "be", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "First Conditional ile Second Conditional arasındaki temel fark nedir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "First Conditional gerçekleşmesi olası durumlar, Second Conditional gerçekleşmesi zor/imkansız durumlar içindir.", "is_correct": true },
+                                    { "text": "İkisi de birebir aynı anlama gelir ve yer değiştirilebilir.", "is_correct": false },
+                                    { "text": "First Conditional geçmiş zamanı, Second Conditional gelecek zamanı anlatır.", "is_correct": false },
+                                    { "text": "Second Conditional sadece soru cümlelerinde kullanılır.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Second Conditional'ın sonuç cümleciğinde (main clause) hangi yapı kullanılır?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "would + fiilin yalın hali (V1)", "is_correct": true },
+                                    { "text": "will + fiilin yalın hali (V1)", "is_correct": false },
+                                    { "text": "would have + fiilin 3. hali (V3)", "is_correct": false },
+                                    { "text": "was/were + fiil + ing", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Second Conditional Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 3,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "If I ___ a lot of money, I would travel. (had/have)",
+                                "correct_answer": "had",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "If I were you, I ___ talk to her. (would/will)",
+                                "correct_answer": "would",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "If she ___ harder, she would pass. (studied/studies)",
+                                "correct_answer": "studied",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "What would you do if you ___ the lottery? (won/win)",
+                                "correct_answer": "won",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "If it rained, we ___ stay home. (would/will)",
+                                "correct_answer": "would",
+                                "order": 5
+                            },
+                            {
+                                "question_text": "If I ___ you, I would apologize. (were/was)",
+                                "correct_answer": "were",
+                                "order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Second Conditional Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 4,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I would travel around the world",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "would" },
+                                    { "text": "travel" },
+                                    { "text": "around" },
+                                    { "text": "the" },
+                                    { "text": "world" },
+                                    { "text": "I" },
+                                    { "text": "chair" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "If I were you",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "If" },
+                                    { "text": "I" },
+                                    { "text": "were" },
+                                    { "text": "you" },
+                                    { "text": "chair" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "She would pass the exam",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "would" },
+                                    { "text": "pass" },
+                                    { "text": "the" },
+                                    { "text": "exam" },
+                                    { "text": "She" },
+                                    { "text": "chair" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "We would stay home",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "would" },
+                                    { "text": "stay" },
+                                    { "text": "home" },
+                                    { "text": "We" },
+                                    { "text": "chair" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Teknoloji",
+                "description": "Bilgisayar, internet ve akıllı cihazlarla ilgili temel kelimeleri öğren.",
+                "content": "Teknoloji günlük hayatımızın ayrılmaz bir parçası haline geldi. Bu derste bilgisayar, internet ve akıllı cihazlarla ilgili temel kelimeleri öğreneceksiniz.\n\nComputer = Bilgisayar\nLaptop = Dizüstü bilgisayar\nSmartphone = Akıllı telefon\nInternet = İnternet\nWebsite = Web sitesi\nApplication (App) = Uygulama\nPassword = Şifre\nDownload = İndirmek\nUpload = Yüklemek\nCharge = Şarj etmek\nBattery = Pil / Batarya\nScreen = Ekran\nKeyboard = Klavye\nWireless = Kablosuz\nSocial media = Sosyal medya\nUsername = Kullanıcı adı\n\nÖrnek Cümleler:\nI need to charge my phone. = Telefonumu şarj etmem gerekiyor.\nCan you download this app for me? = Bu uygulamayı benim için indirebilir misin?\nI forgot my password. = Şifremi unuttum.\nMy laptop's battery is low. = Dizüstü bilgisayarımın pili az.\nShe spends a lot of time on social media. = O sosyal medyada çok zaman geçiriyor.\nThe website isn't working today. = Web sitesi bugün çalışmıyor.",
+                "order": 5,
+                "isActive": true,
+                "activities": [
+                    {
+                        "title": "Teknoloji Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Password ne demektir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Şifre", "is_correct": true },
+                                    { "text": "Kullanıcı adı", "is_correct": false },
+                                    { "text": "Uygulama", "is_correct": false },
+                                    { "text": "Ekran", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Download ne demektir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "İndirmek", "is_correct": true },
+                                    { "text": "Yüklemek", "is_correct": false },
+                                    { "text": "Şarj etmek", "is_correct": false },
+                                    { "text": "Silmek", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Şarj etmek kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Charge", "is_correct": true },
+                                    { "text": "Download", "is_correct": false },
+                                    { "text": "Upload", "is_correct": false },
+                                    { "text": "Delete", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Wireless ne demektir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Kablosuz", "is_correct": true },
+                                    { "text": "Kablolu", "is_correct": false },
+                                    { "text": "Şarjlı", "is_correct": false },
+                                    { "text": "Dijital", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Battery ne demektir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Pil / Batarya", "is_correct": true },
+                                    { "text": "Ekran", "is_correct": false },
+                                    { "text": "Klavye", "is_correct": false },
+                                    { "text": "Şifre", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Kullanıcı adı kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 6,
+                                "choices": [
+                                    { "text": "Username", "is_correct": true },
+                                    { "text": "Password", "is_correct": false },
+                                    { "text": "Application", "is_correct": false },
+                                    { "text": "Website", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Teknoloji Ek Alıştırma",
+                        "activity_type": "multiple_choice",
+                        "order": 2,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'Telefonumu ___ etmem gerekiyor.' cümlesinde boşluğa hangi kelime gelmelidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "charge", "is_correct": true },
+                                    { "text": "download", "is_correct": false },
+                                    { "text": "upload", "is_correct": false },
+                                    { "text": "type", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Bu uygulamayı benim için ___ misin?' cümlesinde boşluğa hangi kelime gelmelidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "download", "is_correct": true },
+                                    { "text": "charge", "is_correct": false },
+                                    { "text": "type", "is_correct": false },
+                                    { "text": "close", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Dizüstü bilgisayarımın ___ az.' cümlesinde boşluğa hangi kelime gelmelidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "battery", "is_correct": true },
+                                    { "text": "keyboard", "is_correct": false },
+                                    { "text": "screen", "is_correct": false },
+                                    { "text": "password", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'O ___ çok zaman geçiriyor.' (sosyal medya) cümlesinde boşluğa hangi ifade gelmelidir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "social media", "is_correct": true },
+                                    { "text": "keyboard", "is_correct": false },
+                                    { "text": "battery", "is_correct": false },
+                                    { "text": "password", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Website ne demektir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Web sitesi", "is_correct": true },
+                                    { "text": "Uygulama", "is_correct": false },
+                                    { "text": "Ekran", "is_correct": false },
+                                    { "text": "İnternet", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Teknoloji Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 3,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "I need to ___ my phone. (charge/download)",
+                                "correct_answer": "charge",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "Can you ___ this app for me? (download/charge)",
+                                "correct_answer": "download",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "I forgot my ___. (password/battery)",
+                                "correct_answer": "password",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "My laptop's ___ is low. (battery/keyboard)",
+                                "correct_answer": "battery",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "She spends a lot of time on ___. (social media/keyboard)",
+                                "correct_answer": "social media",
+                                "order": 5
+                            },
+                            {
+                                "question_text": "The ___ isn't working today. (website/battery)",
+                                "correct_answer": "website",
+                                "order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Teknoloji Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 4,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I need to charge my phone",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "need" },
+                                    { "text": "to" },
+                                    { "text": "charge" },
+                                    { "text": "my" },
+                                    { "text": "phone" },
+                                    { "text": "I" },
+                                    { "text": "elephant" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I forgot my password",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "forgot" },
+                                    { "text": "my" },
+                                    { "text": "password" },
+                                    { "text": "I" },
+                                    { "text": "elephant" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "My laptop's battery is low",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "laptop's" },
+                                    { "text": "battery" },
+                                    { "text": "is" },
+                                    { "text": "low" },
+                                    { "text": "My" },
+                                    { "text": "elephant" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "The website isn't working",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "website" },
+                                    { "text": "isn't" },
+                                    { "text": "working" },
+                                    { "text": "The" },
+                                    { "text": "elephant" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Çevre ve Doğa",
+                "description": "Çevre kirliliği, geri dönüşüm ve doğal kaynaklarla ilgili temel kelimeleri öğren.",
+                "content": "Çevre ve doğa, günümüzde sıkça konuşulan önemli bir konudur. Bu derste çevre kirliliği, geri dönüşüm ve doğal kaynaklarla ilgili temel kelimeleri öğreneceksiniz.\n\nEnvironment = Çevre\nNature = Doğa\nPollution = Kirlilik\nRecycle = Geri dönüştürmek\nClimate change = İklim değişikliği\nGlobal warming = Küresel ısınma\nRenewable energy = Yenilenebilir enerji\nSolar energy = Güneş enerjisi\nWaste = Atık / Çöp\nForest = Orman\nEndangered species = Nesli tükenmekte olan türler\nSustainable = Sürdürülebilir\nCarbon footprint = Karbon ayak izi\nTo protect = Korumak\nTo pollute = Kirletmek\n\nÖrnek Cümleler:\nWe should recycle plastic bottles. = Plastik şişeleri geri dönüştürmeliyiz.\nAir pollution is a serious problem in big cities. = Hava kirliliği büyük şehirlerde ciddi bir sorundur.\nMany species are endangered because of climate change. = İklim değişikliği yüzünden birçok tür nesli tükenme tehlikesiyle karşı karşıya.\nWe need to use more renewable energy. = Daha fazla yenilenebilir enerji kullanmamız gerekiyor.\nFactories shouldn't pollute rivers. = Fabrikalar nehirleri kirletmemeli.",
+                "order": 6,
+                "isActive": true,
+                "activities": [
+                    {
+                        "title": "Çevre ve Doğa Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Pollution ne demektir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Kirlilik", "is_correct": true },
+                                    { "text": "Doğa", "is_correct": false },
+                                    { "text": "Çevre", "is_correct": false },
+                                    { "text": "Atık", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Recycle ne demektir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Geri dönüştürmek", "is_correct": true },
+                                    { "text": "Kirletmek", "is_correct": false },
+                                    { "text": "Korumak", "is_correct": false },
+                                    { "text": "Atmak", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Küresel ısınma kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Global warming", "is_correct": true },
+                                    { "text": "Climate change", "is_correct": false },
+                                    { "text": "Renewable energy", "is_correct": false },
+                                    { "text": "Carbon footprint", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Renewable energy ne demektir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Yenilenebilir enerji", "is_correct": true },
+                                    { "text": "Güneş enerjisi", "is_correct": false },
+                                    { "text": "Karbon ayak izi", "is_correct": false },
+                                    { "text": "Atık", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Endangered species ne demektir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Nesli tükenmekte olan türler", "is_correct": true },
+                                    { "text": "Orman", "is_correct": false },
+                                    { "text": "Doğa", "is_correct": false },
+                                    { "text": "Çevre", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Sürdürülebilir kelimesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 6,
+                                "choices": [
+                                    { "text": "Sustainable", "is_correct": true },
+                                    { "text": "Renewable", "is_correct": false },
+                                    { "text": "Pollution", "is_correct": false },
+                                    { "text": "Waste", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Çevre ve Doğa Ek Alıştırma",
+                        "activity_type": "multiple_choice",
+                        "order": 2,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'Carbon footprint' ne anlama gelir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Karbon ayak izi", "is_correct": true },
+                                    { "text": "Küresel ısınma", "is_correct": false },
+                                    { "text": "Kirlilik", "is_correct": false },
+                                    { "text": "Sürdürülebilirlik", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangisi bir çevre sorunu değil, tam tersine bir çözümdür?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Recycling (Geri dönüşüm)", "is_correct": true },
+                                    { "text": "Pollution (Kirlilik)", "is_correct": false },
+                                    { "text": "Global warming (Küresel ısınma)", "is_correct": false },
+                                    { "text": "Waste (Atık)", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'To protect' ne demektir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Korumak", "is_correct": true },
+                                    { "text": "Kirletmek", "is_correct": false },
+                                    { "text": "Yok etmek", "is_correct": false },
+                                    { "text": "İsraf etmek", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Factories shouldn't ___ rivers.' cümlesinde boşluğa hangi kelime gelmelidir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "pollute", "is_correct": true },
+                                    { "text": "protect", "is_correct": false },
+                                    { "text": "recycle", "is_correct": false },
+                                    { "text": "reduce", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Waste ne demektir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Atık / Çöp", "is_correct": true },
+                                    { "text": "Orman", "is_correct": false },
+                                    { "text": "Doğa", "is_correct": false },
+                                    { "text": "Enerji", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Çevre ve Doğa Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 3,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "We should ___ plastic bottles. (recycle/pollute)",
+                                "correct_answer": "recycle",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "Air ___ is a serious problem in big cities. (pollution/nature)",
+                                "correct_answer": "pollution",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "Many species are ___ because of climate change. (endangered/renewable)",
+                                "correct_answer": "endangered",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "We need to use more ___ energy. (renewable/carbon)",
+                                "correct_answer": "renewable",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "Factories shouldn't ___ rivers. (pollute/protect)",
+                                "correct_answer": "pollute",
+                                "order": 5
+                            },
+                            {
+                                "question_text": "We must ___ endangered species. (protect/waste)",
+                                "correct_answer": "protect",
+                                "order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Çevre ve Doğa Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 4,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "We should recycle plastic bottles",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "should" },
+                                    { "text": "recycle" },
+                                    { "text": "plastic" },
+                                    { "text": "bottles" },
+                                    { "text": "We" },
+                                    { "text": "guitar" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Air pollution is serious",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "pollution" },
+                                    { "text": "is" },
+                                    { "text": "serious" },
+                                    { "text": "Air" },
+                                    { "text": "guitar" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "We need renewable energy",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "need" },
+                                    { "text": "renewable" },
+                                    { "text": "energy" },
+                                    { "text": "We" },
+                                    { "text": "guitar" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Factories shouldn't pollute rivers",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "shouldn't" },
+                                    { "text": "pollute" },
+                                    { "text": "rivers" },
+                                    { "text": "Factories" },
+                                    { "text": "guitar" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Modal Fiiller (must / have to / should / might)",
+                "description": "Zorunluluk, tavsiye ve olasılık bildiren 'must', 'have to', 'should' ve 'might' modal fiillerinin doğru kullanımını ve aralarındaki farkları öğren.",
+                "content": "Modal fiiller, bir eylemin zorunluluğunu, tavsiye niteliğini ya da olasılığını belirtmek için kullanılır. Bu derste 'must', 'have to', 'should' ve 'might' fiillerinin farklarını öğreneceksiniz.\n\nMust = -meli/-malı (güçlü, kişisel zorunluluk)\nHave to = -meli/-malı (dış kurallardan kaynaklanan zorunluluk)\nShould = -meli/-malı (tavsiye, öneri)\nMight = -ebilir (düşük ihtimal, olasılık)\n\nYou must wear a seatbelt. = Emniyet kemeri takmalısın. (Kanuni zorunluluk, güçlü ifade)\nI have to work on Saturday. = Cumartesi çalışmam gerekiyor. (Dış bir kural/programdan kaynaklanan zorunluluk)\nYou should drink more water. = Daha çok su içmelisin. (Tavsiye, zorunlu değil)\nIt might rain tomorrow. = Yarın yağmur yağabilir. (Kesin değil, olasılık)\n\nÖnemli Fark:\n'Must' genellikle konuşmacının kendi görüşünü/güçlü zorunluluğunu, 'have to' ise dışarıdan gelen bir kural veya zorunluluğu ifade eder.\n'Must not' (mustn't) = yasak anlamı taşır: You mustn't smoke here. = Burada sigara içmemelisin (yasak).\n'Don't have to' = zorunluluk yok anlamı taşır: You don't have to come if you're busy. = Meşgulsen gelmek zorunda değilsin.\n'Should' tavsiye, 'must' zorunluluk bildirir - ikisi birbirinin yerine geçmez.",
+                "order": 7,
+                "isActive": true,
+                "activities": [
+                    {
+                        "title": "Modal Fiiller Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'(Yasal zorunluluk) Emniyet kemeri takmalısın.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "You must wear a seatbelt.", "is_correct": true },
+                                    { "text": "You should wear a seatbelt.", "is_correct": false },
+                                    { "text": "You might wear a seatbelt.", "is_correct": false },
+                                    { "text": "You have wear a seatbelt.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'(Programdan dolayı) Cumartesi çalışmam gerekiyor.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "I have to work on Saturday.", "is_correct": true },
+                                    { "text": "I might work on Saturday.", "is_correct": false },
+                                    { "text": "I should work on Saturday.", "is_correct": false },
+                                    { "text": "I has to work on Saturday.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'(Tavsiye) Daha çok su içmelisin.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "You should drink more water.", "is_correct": true },
+                                    { "text": "You must drink more water.", "is_correct": false },
+                                    { "text": "You might drink more water.", "is_correct": false },
+                                    { "text": "You should drinks more water.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'(Olasılık) Yarın yağmur yağabilir.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "It might rain tomorrow.", "is_correct": true },
+                                    { "text": "It must rain tomorrow.", "is_correct": false },
+                                    { "text": "It should rain tomorrow.", "is_correct": false },
+                                    { "text": "It might rains tomorrow.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'(Yasak) Burada sigara içmemelisin.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "You mustn't smoke here.", "is_correct": true },
+                                    { "text": "You don't have to smoke here.", "is_correct": false },
+                                    { "text": "You might not smoke here.", "is_correct": false },
+                                    { "text": "You not must smoke here.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'(Zorunluluk yok) Meşgulsen gelmek zorunda değilsin.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 6,
+                                "choices": [
+                                    { "text": "You don't have to come if you're busy.", "is_correct": true },
+                                    { "text": "You mustn't come if you're busy.", "is_correct": false },
+                                    { "text": "You shouldn't come if you're busy.", "is_correct": false },
+                                    { "text": "You don't must come if you're busy.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Modal Fiiller Ek Alıştırma",
+                        "activity_type": "multiple_choice",
+                        "order": 2,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'Must' ile 'have to' arasındaki temel fark nedir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "'Must' kişisel/güçlü zorunluluk, 'have to' dışarıdan gelen kural ifade eder.", "is_correct": true },
+                                    { "text": "İkisi de birebir aynı anlama gelir.", "is_correct": false },
+                                    { "text": "'Must' geçmiş zaman, 'have to' şimdiki zaman içindir.", "is_correct": false },
+                                    { "text": "'Have to' sadece olumsuz cümlelerde kullanılır.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Mustn't' ne anlama gelir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "Yasak (yapmamalısın)", "is_correct": true },
+                                    { "text": "Zorunluluk yok", "is_correct": false },
+                                    { "text": "Tavsiye", "is_correct": false },
+                                    { "text": "Olasılık", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Don't have to' ne anlama gelir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Zorunluluk yok", "is_correct": true },
+                                    { "text": "Yasak", "is_correct": false },
+                                    { "text": "Güçlü tavsiye", "is_correct": false },
+                                    { "text": "Kesin olasılık", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Should' hangi anlamı taşır?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Tavsiye / öneri", "is_correct": true },
+                                    { "text": "Kesin zorunluluk", "is_correct": false },
+                                    { "text": "Yasak", "is_correct": false },
+                                    { "text": "Kesin olasılık", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Might' hangi anlamı taşır?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Düşük ihtimal / olasılık", "is_correct": true },
+                                    { "text": "Kesinlik", "is_correct": false },
+                                    { "text": "Yasak", "is_correct": false },
+                                    { "text": "Güçlü zorunluluk", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Modal Fiiller Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 3,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "You ___ wear a seatbelt. (must/might) - yasal zorunluluk",
+                                "correct_answer": "must",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "I ___ work on Saturday. (have to/should) - programdan dolayı",
+                                "correct_answer": "have to",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "You ___ drink more water. (should/must) - tavsiye",
+                                "correct_answer": "should",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "It ___ rain tomorrow. (might/must) - olasılık",
+                                "correct_answer": "might",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "You ___ smoke here. (mustn't/don't have to) - yasak",
+                                "correct_answer": "mustn't",
+                                "order": 5
+                            },
+                            {
+                                "question_text": "You ___ come if you're busy. (don't have to/mustn't) - zorunluluk yok",
+                                "correct_answer": "don't have to",
+                                "order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Modal Fiiller Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 4,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "You must wear a seatbelt",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "must" },
+                                    { "text": "wear" },
+                                    { "text": "a" },
+                                    { "text": "seatbelt" },
+                                    { "text": "You" },
+                                    { "text": "spoon" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "I have to work on Saturday",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "have" },
+                                    { "text": "to" },
+                                    { "text": "work" },
+                                    { "text": "on" },
+                                    { "text": "Saturday" },
+                                    { "text": "I" },
+                                    { "text": "spoon" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "You should drink more water",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "should" },
+                                    { "text": "drink" },
+                                    { "text": "more" },
+                                    { "text": "water" },
+                                    { "text": "You" },
+                                    { "text": "spoon" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "It might rain tomorrow",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "might" },
+                                    { "text": "rain" },
+                                    { "text": "tomorrow" },
+                                    { "text": "It" },
+                                    { "text": "spoon" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Edilgen Çatı (Passive Voice)",
+                "description": "Bir eylemin kim tarafından yapıldığından çok eylemin kendisine odaklanmak için kullanılan Present ve Past Passive yapılarını öğren.",
+                "content": "Edilgen çatı (Passive Voice), bir eylemi kim yaptığından çok, eylemin kendisine veya eylemden etkilenen nesneye odaklanmak istediğimizde kullanılır. Yapısı: am/is/are + fiilin 3. hali (Present Passive) veya was/were + fiilin 3. hali (Past Passive).\n\nEtken (Active): The company makes cars. = Şirket araba yapar.\nEdilgen (Passive): Cars are made by the company. = Arabalar şirket tarafından yapılır.\n\nEtken: Someone stole my bike. = Birisi bisikletimi çaldı.\nEdilgen: My bike was stolen. = Bisikletim çalındı. (Kim çaldığı önemli değil/bilinmiyor)\n\nThe letter is written in English. = Mektup İngilizce yazılmıştır. (Present Passive)\nThe bridge was built in 1990. = Köprü 1990'da yapıldı. (Past Passive)\nThis book was written by a famous author. = Bu kitap ünlü bir yazar tarafından yazıldı.\n\n'By' kullanımı: Eylemi kimin yaptığı önemliyse 'by' ile belirtilir: 'The Mona Lisa was painted by Leonardo da Vinci.' Eğer kim yaptığı önemli değilse veya bilinmiyorsa 'by' kısmı genellikle atlanır.",
+                "order": 8,
+                "isActive": true,
+                "activities": [
+                    {
+                        "title": "Edilgen Çatı Testi",
+                        "activity_type": "multiple_choice",
+                        "order": 1,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "'Arabalar şirket tarafından yapılır.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "Cars are made by the company.", "is_correct": true },
+                                    { "text": "Cars make by the company.", "is_correct": false },
+                                    { "text": "Cars is made by the company.", "is_correct": false },
+                                    { "text": "Cars was made by the company.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Bisikletim çalındı.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "My bike was stolen.", "is_correct": true },
+                                    { "text": "My bike stole.", "is_correct": false },
+                                    { "text": "My bike is stolen.", "is_correct": false },
+                                    { "text": "My bike was steal.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Mektup İngilizce yazılmıştır.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "The letter is written in English.", "is_correct": true },
+                                    { "text": "The letter writes in English.", "is_correct": false },
+                                    { "text": "The letter was written in English.", "is_correct": false },
+                                    { "text": "The letter is write in English.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Köprü 1990'da yapıldı.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "The bridge was built in 1990.", "is_correct": true },
+                                    { "text": "The bridge is built in 1990.", "is_correct": false },
+                                    { "text": "The bridge built in 1990.", "is_correct": false },
+                                    { "text": "The bridge was build in 1990.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'Bu kitap ünlü bir yazar tarafından yazıldı.' cümlesinin İngilizcesi hangisidir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "This book was written by a famous author.", "is_correct": true },
+                                    { "text": "This book wrote by a famous author.", "is_correct": false },
+                                    { "text": "This book is written by a famous author.", "is_correct": false },
+                                    { "text": "This book was writing by a famous author.", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Hangi cümle Passive Voice (edilgen) yapıdadır?",
+                                "correct_answer": "",
+                                "order": 6,
+                                "choices": [
+                                    { "text": "The window was broken.", "is_correct": true },
+                                    { "text": "He broke the window.", "is_correct": false },
+                                    { "text": "He is breaking the window.", "is_correct": false },
+                                    { "text": "He will break the window.", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Edilgen Çatı Ek Alıştırma",
+                        "activity_type": "multiple_choice",
+                        "order": 2,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Present Passive'in yapısı nedir?",
+                                "correct_answer": "",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "am/is/are + fiilin 3. hali", "is_correct": true },
+                                    { "text": "was/were + fiilin 3. hali", "is_correct": false },
+                                    { "text": "have/has + fiilin 3. hali", "is_correct": false },
+                                    { "text": "am/is/are + fiil + ing", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Past Passive'in yapısı nedir?",
+                                "correct_answer": "",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "was/were + fiilin 3. hali", "is_correct": true },
+                                    { "text": "am/is/are + fiilin 3. hali", "is_correct": false },
+                                    { "text": "did + fiilin yalın hali", "is_correct": false },
+                                    { "text": "had + fiilin 3. hali", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "Passive Voice genellikle ne zaman kullanılır?",
+                                "correct_answer": "",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "Eylemi kimin yaptığı önemli değilse veya bilinmiyorsa", "is_correct": true },
+                                    { "text": "Eylemi kimin yaptığı çok önemliyse", "is_correct": false },
+                                    { "text": "Sadece soru cümlelerinde", "is_correct": false },
+                                    { "text": "Sadece gelecek zamanda", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'By' kelimesi Passive Voice'ta ne için kullanılır?",
+                                "correct_answer": "",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "Eylemi kimin yaptığını belirtmek için", "is_correct": true },
+                                    { "text": "Eylemin zamanını belirtmek için", "is_correct": false },
+                                    { "text": "Eylemin yerini belirtmek için", "is_correct": false },
+                                    { "text": "Cümleyi olumsuz yapmak için", "is_correct": false }
+                                ]
+                            },
+                            {
+                                "question_text": "'The Mona Lisa was painted by Leonardo da Vinci.' cümlesinde asıl vurgulanan nedir?",
+                                "correct_answer": "",
+                                "order": 5,
+                                "choices": [
+                                    { "text": "Tablonun kendisi ve kim tarafından yapıldığı", "is_correct": true },
+                                    { "text": "Tablonun rengi", "is_correct": false },
+                                    { "text": "Tablonun boyutu", "is_correct": false },
+                                    { "text": "Tablonun fiyatı", "is_correct": false }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Edilgen Çatı Boşluk Doldurma",
+                        "activity_type": "fill_blank",
+                        "order": 3,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Cars ___ made by the company. (are/is)",
+                                "correct_answer": "are",
+                                "order": 1
+                            },
+                            {
+                                "question_text": "My bike ___ stolen. (was/is)",
+                                "correct_answer": "was",
+                                "order": 2
+                            },
+                            {
+                                "question_text": "The letter ___ written in English. (is/was) - şu an geçerli durum",
+                                "correct_answer": "is",
+                                "order": 3
+                            },
+                            {
+                                "question_text": "The bridge ___ built in 1990. (was/is)",
+                                "correct_answer": "was",
+                                "order": 4
+                            },
+                            {
+                                "question_text": "This book ___ written by a famous author. (was/is) - geçmişte oldu",
+                                "correct_answer": "was",
+                                "order": 5
+                            },
+                            {
+                                "question_text": "The window ___ broken. (was/is)",
+                                "correct_answer": "was",
+                                "order": 6
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Edilgen Çatı Cümle Kurma",
+                        "activity_type": "sentence_order",
+                        "order": 4,
+                        "isActive": true,
+                        "questions": [
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "Cars are made by the company",
+                                "order": 1,
+                                "choices": [
+                                    { "text": "are" },
+                                    { "text": "made" },
+                                    { "text": "by" },
+                                    { "text": "the" },
+                                    { "text": "company" },
+                                    { "text": "Cars" },
+                                    { "text": "umbrella" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "My bike was stolen",
+                                "order": 2,
+                                "choices": [
+                                    { "text": "bike" },
+                                    { "text": "was" },
+                                    { "text": "stolen" },
+                                    { "text": "My" },
+                                    { "text": "umbrella" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "The bridge was built in 1990",
+                                "order": 3,
+                                "choices": [
+                                    { "text": "bridge" },
+                                    { "text": "was" },
+                                    { "text": "built" },
+                                    { "text": "in" },
+                                    { "text": "1990" },
+                                    { "text": "The" },
+                                    { "text": "umbrella" }
+                                ]
+                            },
+                            {
+                                "question_text": "Kelimeleri kullanarak doğru cümleyi kur. (Dikkat: aralarında cümleye ait olmayan bir kelime var)",
+                                "correct_answer": "This book was written by a famous author",
+                                "order": 4,
+                                "choices": [
+                                    { "text": "book" },
+                                    { "text": "was" },
+                                    { "text": "written" },
+                                    { "text": "by" },
+                                    { "text": "a" },
+                                    { "text": "famous" },
+                                    { "text": "author" },
+                                    { "text": "This" },
+                                    { "text": "umbrella" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
